@@ -35,13 +35,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.linklblGithub = new System.Windows.Forms.LinkLabel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.linklblInstagram = new System.Windows.Forms.LinkLabel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.linklblLinkedin = new System.Windows.Forms.LinkLabel();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -56,6 +53,9 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.btnForm1 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
+            this.linkLabelGitHub = new System.Windows.Forms.LinkLabel();
+            this.linkLabelInstragram = new System.Windows.Forms.LinkLabel();
+            this.linkLabelLinkedin = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -126,18 +126,6 @@
             this.label5.TabIndex = 14;
             this.label5.Text = "GitHub:";
             // 
-            // linklblGithub
-            // 
-            this.linklblGithub.AutoSize = true;
-            this.linklblGithub.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linklblGithub.LinkColor = System.Drawing.Color.Black;
-            this.linklblGithub.Location = new System.Drawing.Point(779, 192);
-            this.linklblGithub.Name = "linklblGithub";
-            this.linklblGithub.Size = new System.Drawing.Size(114, 21);
-            this.linklblGithub.TabIndex = 15;
-            this.linklblGithub.TabStop = true;
-            this.linklblGithub.Text = "@jaummsilva";
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
@@ -157,18 +145,6 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Instagram:";
             // 
-            // linklblInstagram
-            // 
-            this.linklblInstagram.AutoSize = true;
-            this.linklblInstagram.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linklblInstagram.LinkColor = System.Drawing.Color.Black;
-            this.linklblInstagram.Location = new System.Drawing.Point(781, 274);
-            this.linklblInstagram.Name = "linklblInstagram";
-            this.linklblInstagram.Size = new System.Drawing.Size(118, 21);
-            this.linklblInstagram.TabIndex = 18;
-            this.linklblInstagram.TabStop = true;
-            this.linklblInstagram.Text = "@jaumm.silva";
-            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
@@ -187,18 +163,6 @@
             this.label6.Size = new System.Drawing.Size(72, 20);
             this.label6.TabIndex = 20;
             this.label6.Text = "Linkedin:";
-            // 
-            // linklblLinkedin
-            // 
-            this.linklblLinkedin.AutoSize = true;
-            this.linklblLinkedin.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linklblLinkedin.LinkColor = System.Drawing.Color.Black;
-            this.linklblLinkedin.Location = new System.Drawing.Point(781, 352);
-            this.linklblLinkedin.Name = "linklblLinkedin";
-            this.linklblLinkedin.Size = new System.Drawing.Size(148, 21);
-            this.linklblLinkedin.TabIndex = 21;
-            this.linklblLinkedin.TabStop = true;
-            this.linklblLinkedin.Text = "@joãovitordasilva";
             // 
             // label7
             // 
@@ -339,11 +303,53 @@
             this.label13.TabIndex = 36;
             this.label13.Text = "VUEJS";
             // 
+            // linkLabelGitHub
+            // 
+            this.linkLabelGitHub.AutoSize = true;
+            this.linkLabelGitHub.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelGitHub.LinkColor = System.Drawing.Color.Black;
+            this.linkLabelGitHub.Location = new System.Drawing.Point(795, 193);
+            this.linkLabelGitHub.Name = "linkLabelGitHub";
+            this.linkLabelGitHub.Size = new System.Drawing.Size(122, 24);
+            this.linkLabelGitHub.TabIndex = 37;
+            this.linkLabelGitHub.TabStop = true;
+            this.linkLabelGitHub.Text = "@jaummsilva";
+            this.linkLabelGitHub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelGitHub_LinkClicked);
+            // 
+            // linkLabelInstragram
+            // 
+            this.linkLabelInstragram.AutoSize = true;
+            this.linkLabelInstragram.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelInstragram.LinkColor = System.Drawing.Color.Black;
+            this.linkLabelInstragram.Location = new System.Drawing.Point(795, 274);
+            this.linkLabelInstragram.Name = "linkLabelInstragram";
+            this.linkLabelInstragram.Size = new System.Drawing.Size(129, 24);
+            this.linkLabelInstragram.TabIndex = 38;
+            this.linkLabelInstragram.TabStop = true;
+            this.linkLabelInstragram.Text = "@jaumm.silva";
+            this.linkLabelInstragram.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelInstragram_LinkClicked);
+            // 
+            // linkLabelLinkedin
+            // 
+            this.linkLabelLinkedin.AutoSize = true;
+            this.linkLabelLinkedin.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelLinkedin.LinkColor = System.Drawing.Color.Black;
+            this.linkLabelLinkedin.Location = new System.Drawing.Point(795, 353);
+            this.linkLabelLinkedin.Name = "linkLabelLinkedin";
+            this.linkLabelLinkedin.Size = new System.Drawing.Size(160, 24);
+            this.linkLabelLinkedin.TabIndex = 39;
+            this.linkLabelLinkedin.TabStop = true;
+            this.linkLabelLinkedin.Text = "@joãovitordasilva";
+            this.linkLabelLinkedin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelLinkedin_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1190, 739);
+            this.Controls.Add(this.linkLabelLinkedin);
+            this.Controls.Add(this.linkLabelInstragram);
+            this.Controls.Add(this.linkLabelGitHub);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.btnForm1);
             this.Controls.Add(this.pictureBox10);
@@ -358,13 +364,10 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.linklblLinkedin);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.linklblInstagram);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.linklblGithub);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label4);
@@ -396,13 +399,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.LinkLabel linklblGithub;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel linklblInstagram;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.LinkLabel linklblLinkedin;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label8;
@@ -417,6 +417,9 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Button btnForm1;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.LinkLabel linkLabelGitHub;
+        private System.Windows.Forms.LinkLabel linkLabelInstragram;
+        private System.Windows.Forms.LinkLabel linkLabelLinkedin;
     }
 }
 

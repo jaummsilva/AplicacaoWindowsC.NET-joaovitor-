@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,12 +18,25 @@ namespace AplicacaoWindowsC.NET_joaovitor_
             InitializeComponent();
         }
 
+
         private void btnForm1_Click(object sender, EventArgs e)
         {
             new FrmMenu().Show();
         }
 
+        private void linkLabelGitHub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://www.instagram.com/jaumm.silva/");
+        }
 
+        private void linkLabelInstragram_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://www.linkedin.com/in/jo%C3%A3ovitordasilva/");
+        }
 
+        private void linkLabelLinkedin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://www.linkedin.com/in/jo%C3%A3ovitordasilva/");
+        }
     }
 }
