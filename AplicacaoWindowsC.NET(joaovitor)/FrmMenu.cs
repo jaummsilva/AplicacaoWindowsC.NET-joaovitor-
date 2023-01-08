@@ -31,5 +31,15 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         {
 
         }
+
+        private void salvarArquivosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmSave().Show();
+        }
+
+        private void formulárioCadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmFormRegistration().Show();
+        }
     }
 }

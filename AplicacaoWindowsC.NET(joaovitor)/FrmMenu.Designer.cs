@@ -37,6 +37,7 @@
             this.repositóriosGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.funcionalidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvarArquivosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formulárioCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -104,7 +105,8 @@
             // 
             this.funcionalidadesToolStripMenuItem.BackColor = System.Drawing.SystemColors.Highlight;
             this.funcionalidadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.salvarArquivosToolStripMenuItem});
+            this.salvarArquivosToolStripMenuItem,
+            this.formulárioCadastroToolStripMenuItem});
             this.funcionalidadesToolStripMenuItem.Name = "funcionalidadesToolStripMenuItem";
             this.funcionalidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.funcionalidadesToolStripMenuItem.Text = "Funcionalidades";
@@ -114,6 +116,14 @@
             this.salvarArquivosToolStripMenuItem.Name = "salvarArquivosToolStripMenuItem";
             this.salvarArquivosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salvarArquivosToolStripMenuItem.Text = "Salvar Arquivos";
+            this.salvarArquivosToolStripMenuItem.Click += new System.EventHandler(this.salvarArquivosToolStripMenuItem_Click);
+            // 
+            // formulárioCadastroToolStripMenuItem
+            // 
+            this.formulárioCadastroToolStripMenuItem.Name = "formulárioCadastroToolStripMenuItem";
+            this.formulárioCadastroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.formulárioCadastroToolStripMenuItem.Text = "Formulário cadastro";
+            this.formulárioCadastroToolStripMenuItem.Click += new System.EventHandler(this.formulárioCadastroToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 
@@ -146,5 +156,6 @@
         private System.Windows.Forms.ToolStripMenuItem repositóriosGitHubToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem funcionalidadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salvarArquivosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formulárioCadastroToolStripMenuItem;
     }
 }

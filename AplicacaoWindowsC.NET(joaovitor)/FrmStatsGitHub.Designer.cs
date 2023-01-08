@@ -29,12 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridViewStats = new System.Windows.Forms.DataGridView();
-            this.gitHubStatsProjectsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.languageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gitHubStatsProjectsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStats)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gitHubStatsProjectsBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -42,6 +48,8 @@
             // dataGridViewStats
             // 
             this.dataGridViewStats.AutoGenerateColumns = false;
+            this.dataGridViewStats.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewStats.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridViewStats.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewStats.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idDataGridViewTextBoxColumn,
@@ -49,50 +57,83 @@
             this.languageDataGridViewTextBoxColumn,
             this.descriptionDataGridViewTextBoxColumn});
             this.dataGridViewStats.DataSource = this.gitHubStatsProjectsBindingSource;
-            this.dataGridViewStats.Location = new System.Drawing.Point(79, 177);
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewStats.DefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridViewStats.Location = new System.Drawing.Point(136, 149);
             this.dataGridViewStats.Name = "dataGridViewStats";
             this.dataGridViewStats.Size = new System.Drawing.Size(844, 460);
             this.dataGridViewStats.TabIndex = 0;
             // 
-            // gitHubStatsProjectsBindingSource
+            // label3
             // 
-            this.gitHubStatsProjectsBindingSource.DataSource = typeof(AplicacaoWindowsC.NET_joaovitor_.GitHubStatsProjects);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(229, 66);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(672, 38);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Repositório do GitHub em DataGridView ";
             // 
             // idDataGridViewTextBoxColumn
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle1;
             this.idDataGridViewTextBoxColumn.HeaderText = "Id";
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
             // 
             // nameDataGridViewTextBoxColumn
             // 
             this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
+            this.nameDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
             this.nameDataGridViewTextBoxColumn.FillWeight = 200F;
-            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
             this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
             this.nameDataGridViewTextBoxColumn.Width = 200;
             // 
             // languageDataGridViewTextBoxColumn
             // 
             this.languageDataGridViewTextBoxColumn.DataPropertyName = "language";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.languageDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle3;
             this.languageDataGridViewTextBoxColumn.FillWeight = 150F;
-            this.languageDataGridViewTextBoxColumn.HeaderText = "language";
+            this.languageDataGridViewTextBoxColumn.HeaderText = "Language";
             this.languageDataGridViewTextBoxColumn.Name = "languageDataGridViewTextBoxColumn";
             this.languageDataGridViewTextBoxColumn.Width = 150;
             // 
             // descriptionDataGridViewTextBoxColumn
             // 
             this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "description";
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.descriptionDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle4;
             this.descriptionDataGridViewTextBoxColumn.FillWeight = 350F;
             this.descriptionDataGridViewTextBoxColumn.HeaderText = "description";
             this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
             this.descriptionDataGridViewTextBoxColumn.Width = 350;
+            // 
+            // gitHubStatsProjectsBindingSource
+            // 
+            this.gitHubStatsProjectsBindingSource.DataSource = typeof(AplicacaoWindowsC.NET_joaovitor_.GitHubStatsProjects);
             // 
             // FrmStatsGitHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1127, 678);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridViewStats);
             this.Name = "FrmStatsGitHub";
             this.Text = "FrmStatsGitHub";
@@ -100,6 +141,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStats)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gitHubStatsProjectsBindingSource)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -107,6 +149,7 @@
 
         private System.Windows.Forms.DataGridView dataGridViewStats;
         private System.Windows.Forms.BindingSource gitHubStatsProjectsBindingSource;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn languageDataGridViewTextBoxColumn;
