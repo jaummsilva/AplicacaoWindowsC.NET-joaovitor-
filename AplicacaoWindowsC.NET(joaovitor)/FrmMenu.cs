@@ -39,12 +39,17 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void formulárioCadastroToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmFormRegistration().Show();
+            new FrmRegistration().Show();
         }
 
         private void tabuadaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new FrmMultiplicationTable().Show();
+        }
+
+        private void enviarEmailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmSendEmail().Show(); 
         }
     }
 }

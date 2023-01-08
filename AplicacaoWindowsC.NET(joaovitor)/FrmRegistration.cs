@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace AplicacaoWindowsC.NET_joaovitor_
 {
-    public partial class FrmFormRegistration : Form
+    public partial class FrmRegistration : Form
     {
-        public FrmFormRegistration()
+        public FrmRegistration()
         {
             InitializeComponent();
         }
 
-        private void FrmFormRegistration_Load(object sender, System.EventArgs e)
+        private void FrmRegistration_Load(object sender, System.EventArgs e)
         {
 
             comboBoxState.DataSource = State.Lista();

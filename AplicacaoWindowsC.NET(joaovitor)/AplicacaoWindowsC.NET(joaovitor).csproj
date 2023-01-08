@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,11 +53,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmFormRegistration.cs">
+    <Compile Include="FrmRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmFormRegistration.Designer.cs">
-      <DependentUpon>FrmFormRegistration.cs</DependentUpon>
+    <Compile Include="FrmRegistration.Designer.cs">
+      <DependentUpon>FrmRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
@@ -76,6 +77,12 @@
     <Compile Include="FrmSave.Designer.cs">
       <DependentUpon>FrmSave.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSendEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSendEmail.Designer.cs">
+      <DependentUpon>FrmSendEmail.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmShowRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,8 +100,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmFormRegistration.resx">
-      <DependentUpon>FrmFormRegistration.cs</DependentUpon>
+    <EmbeddedResource Include="FrmRegistration.resx">
+      <DependentUpon>FrmRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
@@ -104,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSave.resx">
       <DependentUpon>FrmSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSendEmail.resx">
+      <DependentUpon>FrmSendEmail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmShowRegistration.resx">
       <DependentUpon>FrmShowRegistration.cs</DependentUpon>

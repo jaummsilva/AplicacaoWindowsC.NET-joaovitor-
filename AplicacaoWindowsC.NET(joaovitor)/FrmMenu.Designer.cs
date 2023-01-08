@@ -39,6 +39,7 @@
             this.salvarArquivosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formulárioCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enviarEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -108,7 +109,8 @@
             this.funcionalidadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.salvarArquivosToolStripMenuItem,
             this.formulárioCadastroToolStripMenuItem,
-            this.tabuadaToolStripMenuItem});
+            this.tabuadaToolStripMenuItem,
+            this.enviarEmailToolStripMenuItem});
             this.funcionalidadesToolStripMenuItem.Name = "funcionalidadesToolStripMenuItem";
             this.funcionalidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.funcionalidadesToolStripMenuItem.Text = "Funcionalidades";
@@ -133,6 +135,13 @@
             this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tabuadaToolStripMenuItem.Text = "Tabuada";
             this.tabuadaToolStripMenuItem.Click += new System.EventHandler(this.tabuadaToolStripMenuItem_Click);
+            // 
+            // enviarEmailToolStripMenuItem
+            // 
+            this.enviarEmailToolStripMenuItem.Name = "enviarEmailToolStripMenuItem";
+            this.enviarEmailToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.enviarEmailToolStripMenuItem.Text = "Enviar email";
+            this.enviarEmailToolStripMenuItem.Click += new System.EventHandler(this.enviarEmailToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 
@@ -167,5 +176,6 @@
         private System.Windows.Forms.ToolStripMenuItem salvarArquivosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formulárioCadastroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tabuadaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem enviarEmailToolStripMenuItem;
     }
 }

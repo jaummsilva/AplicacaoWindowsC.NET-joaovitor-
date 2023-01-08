@@ -1,6 +1,6 @@
 ﻿namespace AplicacaoWindowsC.NET_joaovitor_
 {
-    partial class FrmFormRegistration
+    partial class FrmRegistration
     {
         /// <summary>
         /// Required designer variable.
@@ -146,7 +146,7 @@
             this.Controls.Add(this.label3);
             this.Name = "FrmFormRegistration";
             this.Text = "FrmFormRegistration";
-            this.Load += new System.EventHandler(this.FrmFormRegistration_Load);
+            this.Load += new System.EventHandler(this.FrmRegistration_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
