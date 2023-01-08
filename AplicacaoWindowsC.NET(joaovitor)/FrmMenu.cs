@@ -41,5 +41,10 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         {
             new FrmFormRegistration().Show();
         }
+
+        private void tabuadaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmMultiplicationTable().Show();
+        }
     }
 }

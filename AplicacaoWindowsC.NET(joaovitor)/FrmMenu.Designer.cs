@@ -38,6 +38,7 @@
             this.funcionalidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvarArquivosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formulárioCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -106,7 +107,8 @@
             this.funcionalidadesToolStripMenuItem.BackColor = System.Drawing.SystemColors.Highlight;
             this.funcionalidadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.salvarArquivosToolStripMenuItem,
-            this.formulárioCadastroToolStripMenuItem});
+            this.formulárioCadastroToolStripMenuItem,
+            this.tabuadaToolStripMenuItem});
             this.funcionalidadesToolStripMenuItem.Name = "funcionalidadesToolStripMenuItem";
             this.funcionalidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.funcionalidadesToolStripMenuItem.Text = "Funcionalidades";
@@ -124,6 +126,13 @@
             this.formulárioCadastroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.formulárioCadastroToolStripMenuItem.Text = "Formulário cadastro";
             this.formulárioCadastroToolStripMenuItem.Click += new System.EventHandler(this.formulárioCadastroToolStripMenuItem_Click);
+            // 
+            // tabuadaToolStripMenuItem
+            // 
+            this.tabuadaToolStripMenuItem.Name = "tabuadaToolStripMenuItem";
+            this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tabuadaToolStripMenuItem.Text = "Tabuada";
+            this.tabuadaToolStripMenuItem.Click += new System.EventHandler(this.tabuadaToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 
@@ -157,5 +166,6 @@
         private System.Windows.Forms.ToolStripMenuItem funcionalidadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salvarArquivosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formulárioCadastroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tabuadaToolStripMenuItem;
     }
 }

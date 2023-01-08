@@ -100,8 +100,9 @@
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(201, 50);
             this.btnMenu.TabIndex = 20;
-            this.btnMenu.Text = "Ir para o Form Menu";
+            this.btnMenu.Text = "Voltar ao Menu";
             this.btnMenu.UseVisualStyleBackColor = true;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // lblName
             // 
