@@ -45,10 +45,17 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         private void btnMultiTable_Click(object sender, EventArgs e)
         {
             int num = 0;
-            num = Convert.ToInt32(textBoxMultiTable.Text);
-            for (int a = 1; a <= 10; a++)
+            try
             {
-                listBox1.Items.Add(num + " * " + a + "\n = " + num * a);
+                num = Convert.ToInt32(textBoxMultiTable.Text);
+                for (int a = 1; a <= 10; a++)
+                {
+                    listBox1.Items.Add(num + " * " + a + "\n = " + num * a);
+                }
+            }
+            catch {
+                MessageBox.Show("Por acaso você não digitou uma letra no lugar de numero?");
+                textBoxMultiTable.Focus();
             }
         }
     }

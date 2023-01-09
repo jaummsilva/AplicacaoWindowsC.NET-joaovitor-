@@ -26,11 +26,23 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         private void btnOpen_Click(object sender, EventArgs e)
         {
             var form = new FrmShowRegistration();
-            form.lblName.Text = textName2.Text;
-            form.lblAge.Text = textAge.Text;
-            form.lblCity.Text = textCity.Text;
-            form.lblState.Text = comboBoxState.Text;
-            form.Show();
+            try
+            {
+                form.lblName.Text = textName2.Text;
+                form.lblCity.Text = textCity.Text;
+                form.lblState.Text = comboBoxState.Text;
+                int age = (int)Convert.ToInt64(textAge.Text);
+                form.lblAge.Text = age.ToString();
+                form.Show();
+
+            }
+            catch
+            {
+                MessageBox.Show("Não use caracteres em Idade");
+                textAge.Focus();
+            }
+            
+
         }
     }
     public class State
