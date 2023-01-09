@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMultiplicationTable));
             this.label3 = new System.Windows.Forms.Label();
             this.labelNome = new System.Windows.Forms.Label();
             this.btnMultiTable = new System.Windows.Forms.Button();
@@ -35,6 +37,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBoxMultiTable = new System.Windows.Forms.TextBox();
+            this.notifyIconMultiTable = new System.Windows.Forms.NotifyIcon(this.components);
             this.SuspendLayout();
             // 
             // label3
@@ -114,6 +117,13 @@
             this.textBoxMultiTable.Size = new System.Drawing.Size(328, 20);
             this.textBoxMultiTable.TabIndex = 23;
             // 
+            // notifyIconMultiTable
+            // 
+            this.notifyIconMultiTable.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIconMultiTable.Icon")));
+            this.notifyIconMultiTable.Text = "notifyIcon1";
+            this.notifyIconMultiTable.Visible = true;
+            this.notifyIconMultiTable.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIconMultiTable_MouseDoubleClick);
+            // 
             // FrmMultiplicationTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -126,6 +136,7 @@
             this.Controls.Add(this.btnMultiTable);
             this.Controls.Add(this.labelNome);
             this.Controls.Add(this.label3);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMultiplicationTable";
             this.Text = "FrmMultiplicationTable";
             this.ResumeLayout(false);
@@ -141,5 +152,6 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBoxMultiTable;
+        private System.Windows.Forms.NotifyIcon notifyIconMultiTable;
     }
 }

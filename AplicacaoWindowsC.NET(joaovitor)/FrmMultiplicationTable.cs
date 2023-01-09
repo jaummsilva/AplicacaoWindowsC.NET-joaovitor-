@@ -21,7 +21,6 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void FrmMultiplicationTable_Load(object sender, System.EventArgs e)
         {
-
             textBoxMultiTable.Focus();
         }
 
@@ -57,6 +56,11 @@ namespace AplicacaoWindowsC.NET_joaovitor_
                 MessageBox.Show("Por acaso você não digitou uma letra no lugar de numero?");
                 textBoxMultiTable.Focus();
             }
+        }
+
+        private void notifyIconMultiTable_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
         }
     }
 

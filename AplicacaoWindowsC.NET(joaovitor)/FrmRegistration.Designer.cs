@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegistration));
             this.label3 = new System.Windows.Forms.Label();
             this.labelNome = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -129,7 +130,7 @@
             this.comboBoxState.Size = new System.Drawing.Size(400, 21);
             this.comboBoxState.TabIndex = 17;
             // 
-            // FrmFormRegistration
+            // FrmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -144,7 +145,8 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.labelNome);
             this.Controls.Add(this.label3);
-            this.Name = "FrmFormRegistration";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FrmRegistration";
             this.Text = "FrmFormRegistration";
             this.Load += new System.EventHandler(this.FrmRegistration_Load);
             this.ResumeLayout(false);

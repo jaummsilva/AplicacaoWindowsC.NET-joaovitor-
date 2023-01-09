@@ -34,6 +34,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStatsGitHub));
             this.dataGridViewStats = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -135,6 +136,7 @@
             this.ClientSize = new System.Drawing.Size(1127, 678);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridViewStats);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmStatsGitHub";
             this.Text = "FrmStatsGitHub";
             this.Load += new System.EventHandler(this.FrmStatsGitHub_Load);

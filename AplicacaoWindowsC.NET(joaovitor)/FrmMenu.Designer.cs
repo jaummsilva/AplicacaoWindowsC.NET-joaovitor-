@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.eventLog1 = new System.Diagnostics.EventLog();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,13 +42,9 @@
             this.tabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataEHoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // eventLog1
-            // 
-            this.eventLog1.SynchronizingObject = this;
             // 
             // menuStrip1
             // 
@@ -152,6 +149,11 @@
             this.dataEHoraToolStripMenuItem.Text = "Data e Hora";
             this.dataEHoraToolStripMenuItem.Click += new System.EventHandler(this.dataEHoraToolStripMenuItem_Click);
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -161,10 +163,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmMenu";
             this.Text = "FrmMenu";
-            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
@@ -173,8 +175,6 @@
         }
 
         #endregion
-
-        private System.Diagnostics.EventLog eventLog1;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label label3;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -187,5 +187,6 @@
         private System.Windows.Forms.ToolStripMenuItem tabuadaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem enviarEmailToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dataEHoraToolStripMenuItem;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }

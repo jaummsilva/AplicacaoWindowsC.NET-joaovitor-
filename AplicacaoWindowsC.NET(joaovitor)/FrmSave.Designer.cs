@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSave));
             this.btnSave = new System.Windows.Forms.Button();
             this.textBoxSave = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -90,6 +91,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxSave);
             this.Controls.Add(this.btnSave);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmSave";
             this.Text = "FrmSave";
             this.ResumeLayout(false);
