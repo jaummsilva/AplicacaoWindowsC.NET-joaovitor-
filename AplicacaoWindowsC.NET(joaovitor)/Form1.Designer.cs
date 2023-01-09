@@ -52,7 +52,6 @@
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.btnForm1 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.linkLabelGitHub = new System.Windows.Forms.LinkLabel();
             this.linkLabelInstragram = new System.Windows.Forms.LinkLabel();
@@ -83,7 +82,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(719, 27);
+            this.label3.Location = new System.Drawing.Point(857, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(304, 37);
             this.label3.TabIndex = 10;
@@ -93,7 +92,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(588, 87);
+            this.label2.Location = new System.Drawing.Point(768, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(187, 20);
             this.label2.TabIndex = 11;
@@ -103,7 +102,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(588, 130);
+            this.label4.Location = new System.Drawing.Point(768, 125);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(440, 20);
             this.label4.TabIndex = 12;
@@ -112,7 +111,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(592, 170);
+            this.pictureBox2.Location = new System.Drawing.Point(772, 162);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(63, 64);
             this.pictureBox2.TabIndex = 13;
@@ -122,7 +121,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(686, 193);
+            this.label5.Location = new System.Drawing.Point(860, 189);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(64, 20);
             this.label5.TabIndex = 14;
@@ -131,7 +130,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(601, 260);
+            this.pictureBox3.Location = new System.Drawing.Point(772, 248);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(54, 50);
             this.pictureBox3.TabIndex = 16;
@@ -141,7 +140,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(686, 274);
+            this.label1.Location = new System.Drawing.Point(860, 278);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 20);
             this.label1.TabIndex = 17;
@@ -150,7 +149,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(601, 336);
+            this.pictureBox4.Location = new System.Drawing.Point(772, 333);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(54, 50);
             this.pictureBox4.TabIndex = 19;
@@ -160,7 +159,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(686, 353);
+            this.label6.Location = new System.Drawing.Point(860, 352);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(72, 20);
             this.label6.TabIndex = 20;
@@ -170,7 +169,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(434, 484);
+            this.label7.Location = new System.Drawing.Point(766, 477);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(366, 33);
             this.label7.TabIndex = 22;
@@ -179,7 +178,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(100, 544);
+            this.pictureBox5.Location = new System.Drawing.Point(105, 543);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(54, 49);
             this.pictureBox5.TabIndex = 23;
@@ -189,7 +188,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(97, 606);
+            this.label8.Location = new System.Drawing.Point(102, 617);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(65, 18);
             this.label8.TabIndex = 24;
@@ -198,7 +197,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(265, 544);
+            this.pictureBox6.Location = new System.Drawing.Point(367, 543);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(57, 50);
             this.pictureBox6.TabIndex = 26;
@@ -208,7 +207,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(277, 606);
+            this.label9.Location = new System.Drawing.Point(379, 617);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(45, 18);
             this.label9.TabIndex = 27;
@@ -217,7 +216,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(450, 543);
+            this.pictureBox7.Location = new System.Drawing.Point(611, 543);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(54, 50);
             this.pictureBox7.TabIndex = 28;
@@ -227,7 +226,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(421, 606);
+            this.label10.Location = new System.Drawing.Point(588, 617);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(107, 18);
             this.label10.TabIndex = 29;
@@ -236,7 +235,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(637, 542);
+            this.pictureBox8.Location = new System.Drawing.Point(893, 543);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(52, 50);
             this.pictureBox8.TabIndex = 30;
@@ -246,7 +245,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(625, 606);
+            this.label11.Location = new System.Drawing.Point(888, 617);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(76, 18);
             this.label11.TabIndex = 31;
@@ -255,7 +254,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(809, 543);
+            this.pictureBox9.Location = new System.Drawing.Point(1146, 543);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(50, 50);
             this.pictureBox9.TabIndex = 32;
@@ -265,7 +264,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(819, 606);
+            this.label12.Location = new System.Drawing.Point(1156, 617);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(28, 18);
             this.label12.TabIndex = 33;
@@ -274,32 +273,17 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(988, 542);
+            this.pictureBox10.Location = new System.Drawing.Point(1382, 543);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(63, 59);
             this.pictureBox10.TabIndex = 34;
             this.pictureBox10.TabStop = false;
             // 
-            // btnForm1
-            // 
-            this.btnForm1.BackColor = System.Drawing.Color.Black;
-            this.btnForm1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnForm1.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnForm1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnForm1.Location = new System.Drawing.Point(528, 665);
-            this.btnForm1.Margin = new System.Windows.Forms.Padding(0);
-            this.btnForm1.Name = "btnForm1";
-            this.btnForm1.Size = new System.Drawing.Size(195, 52);
-            this.btnForm1.TabIndex = 35;
-            this.btnForm1.Text = "Próxima janela";
-            this.btnForm1.UseVisualStyleBackColor = false;
-            this.btnForm1.Click += new System.EventHandler(this.btnForm1_Click);
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(993, 606);
+            this.label13.Location = new System.Drawing.Point(1387, 617);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(58, 18);
             this.label13.TabIndex = 36;
@@ -310,7 +294,7 @@
             this.linkLabelGitHub.AutoSize = true;
             this.linkLabelGitHub.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabelGitHub.LinkColor = System.Drawing.Color.Black;
-            this.linkLabelGitHub.Location = new System.Drawing.Point(795, 193);
+            this.linkLabelGitHub.Location = new System.Drawing.Point(959, 189);
             this.linkLabelGitHub.Name = "linkLabelGitHub";
             this.linkLabelGitHub.Size = new System.Drawing.Size(122, 24);
             this.linkLabelGitHub.TabIndex = 37;
@@ -323,7 +307,7 @@
             this.linkLabelInstragram.AutoSize = true;
             this.linkLabelInstragram.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabelInstragram.LinkColor = System.Drawing.Color.Black;
-            this.linkLabelInstragram.Location = new System.Drawing.Point(795, 274);
+            this.linkLabelInstragram.Location = new System.Drawing.Point(959, 274);
             this.linkLabelInstragram.Name = "linkLabelInstragram";
             this.linkLabelInstragram.Size = new System.Drawing.Size(129, 24);
             this.linkLabelInstragram.TabIndex = 38;
@@ -336,7 +320,7 @@
             this.linkLabelLinkedin.AutoSize = true;
             this.linkLabelLinkedin.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabelLinkedin.LinkColor = System.Drawing.Color.Black;
-            this.linkLabelLinkedin.Location = new System.Drawing.Point(795, 353);
+            this.linkLabelLinkedin.Location = new System.Drawing.Point(959, 349);
             this.linkLabelLinkedin.Name = "linkLabelLinkedin";
             this.linkLabelLinkedin.Size = new System.Drawing.Size(160, 24);
             this.linkLabelLinkedin.TabIndex = 39;
@@ -355,12 +339,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1190, 739);
+            this.ClientSize = new System.Drawing.Size(1531, 739);
             this.Controls.Add(this.linkLabelLinkedin);
             this.Controls.Add(this.linkLabelInstragram);
             this.Controls.Add(this.linkLabelGitHub);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.btnForm1);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox9);
@@ -386,6 +369,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -426,7 +410,6 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Button btnForm1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.LinkLabel linkLabelGitHub;
         private System.Windows.Forms.LinkLabel linkLabelInstragram;
