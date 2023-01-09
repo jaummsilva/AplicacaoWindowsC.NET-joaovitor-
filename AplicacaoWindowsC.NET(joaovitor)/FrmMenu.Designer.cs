@@ -40,6 +40,7 @@
             this.formulárioCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataEHoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +53,7 @@
             // 
             this.menuStrip1.Location = new System.Drawing.Point(0, 24);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1512, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1248, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -81,7 +82,7 @@
             this.projetosToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1512, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(1248, 24);
             this.menuStrip2.TabIndex = 10;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -110,7 +111,8 @@
             this.salvarArquivosToolStripMenuItem,
             this.formulárioCadastroToolStripMenuItem,
             this.tabuadaToolStripMenuItem,
-            this.enviarEmailToolStripMenuItem});
+            this.enviarEmailToolStripMenuItem,
+            this.dataEHoraToolStripMenuItem});
             this.funcionalidadesToolStripMenuItem.Name = "funcionalidadesToolStripMenuItem";
             this.funcionalidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.funcionalidadesToolStripMenuItem.Text = "Funcionalidades";
@@ -143,11 +145,18 @@
             this.enviarEmailToolStripMenuItem.Text = "Enviar email";
             this.enviarEmailToolStripMenuItem.Click += new System.EventHandler(this.enviarEmailToolStripMenuItem_Click);
             // 
+            // dataEHoraToolStripMenuItem
+            // 
+            this.dataEHoraToolStripMenuItem.Name = "dataEHoraToolStripMenuItem";
+            this.dataEHoraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataEHoraToolStripMenuItem.Text = "Data e Hora";
+            this.dataEHoraToolStripMenuItem.Click += new System.EventHandler(this.dataEHoraToolStripMenuItem_Click);
+            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1512, 759);
+            this.ClientSize = new System.Drawing.Size(1248, 759);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.menuStrip1);
@@ -177,5 +186,6 @@
         private System.Windows.Forms.ToolStripMenuItem formulárioCadastroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tabuadaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem enviarEmailToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dataEHoraToolStripMenuItem;
     }
 }

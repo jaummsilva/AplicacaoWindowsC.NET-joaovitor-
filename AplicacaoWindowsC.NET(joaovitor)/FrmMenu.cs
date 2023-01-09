@@ -51,5 +51,10 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         {
             new FrmSendEmail().Show(); 
         }
+
+        private void dataEHoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmDateHour().Show();   
+        }
     }
 }

@@ -53,6 +53,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDateHour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDateHour.Designer.cs">
+      <DependentUpon>FrmDateHour.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDateHour.resx">
+      <DependentUpon>FrmDateHour.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRegistration.resx">
       <DependentUpon>FrmRegistration.cs</DependentUpon>
