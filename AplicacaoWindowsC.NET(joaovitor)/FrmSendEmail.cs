@@ -35,10 +35,10 @@ namespace AplicacaoWindowsC.NET_joaovitor_
                 smt.Host = "smtp.gmail.com";
                 NetworkCredential ntcd = new NetworkCredential();
                 ntcd.UserName = "jaumm.silva.04@gmail.com";
-                ntcd.Password = "Jaumm#99";
+                ntcd.Password = "";
                 smt.Credentials = ntcd;
                 smt.EnableSsl = true;
-                smt.Port = 587;
+                smt.Port = 000;
                 smt.Send(msg);
 
                 MessageBox.Show("Your Mail is sended");
@@ -49,6 +49,11 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
