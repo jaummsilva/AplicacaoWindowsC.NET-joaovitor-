@@ -24,10 +24,7 @@ namespace AplicacaoWindowsC.NET_joaovitor_
             textBoxMultiTable.Focus();
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            new FrmMenu().Show();
-        }
+        
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -43,13 +40,13 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void btnMultiTable_Click(object sender, EventArgs e)
         {
-            int num = 0;
             try
             {
+                int num = 0;
                 num = Convert.ToInt32(textBoxMultiTable.Text);
                 for (int a = 1; a <= 10; a++)
                 {
-                    listBox1.Items.Add(num + " * " + a + "\n = " + num * a);
+                    listBox1.Items.Add(num + " * " + a + "\n = " + num * a + "\n");
                 }
             }
             catch {

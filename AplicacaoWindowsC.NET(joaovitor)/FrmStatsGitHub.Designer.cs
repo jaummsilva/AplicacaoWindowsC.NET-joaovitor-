@@ -66,16 +66,16 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewStats.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridViewStats.Location = new System.Drawing.Point(136, 149);
+            this.dataGridViewStats.Location = new System.Drawing.Point(128, 86);
             this.dataGridViewStats.Name = "dataGridViewStats";
-            this.dataGridViewStats.Size = new System.Drawing.Size(844, 460);
+            this.dataGridViewStats.Size = new System.Drawing.Size(842, 559);
             this.dataGridViewStats.TabIndex = 0;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(229, 66);
+            this.label3.Location = new System.Drawing.Point(215, 30);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(672, 38);
             this.label3.TabIndex = 11;

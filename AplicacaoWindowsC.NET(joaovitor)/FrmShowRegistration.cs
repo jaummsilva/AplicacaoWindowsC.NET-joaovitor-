@@ -17,9 +17,6 @@ namespace AplicacaoWindowsC.NET_joaovitor_
             InitializeComponent();
         }
 
-        private void btnMenu_Click(object sender, EventArgs e)
-        {
-            new FrmMenu().Show();
-        }
+        
     }
 }

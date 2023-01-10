@@ -25,14 +25,15 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
-            var form = new FrmShowRegistration();
             try
             {
+                var form = new FrmShowRegistration();
                 form.lblName.Text = textName2.Text;
                 form.lblCity.Text = textCity.Text;
                 form.lblState.Text = comboBoxState.Text;
                 int age = (int)Convert.ToInt64(textAge.Text);
                 form.lblAge.Text = age.ToString();
+                form.MdiParent = MDISingleton.InstanciaMDI();
                 form.Show();
 
             }

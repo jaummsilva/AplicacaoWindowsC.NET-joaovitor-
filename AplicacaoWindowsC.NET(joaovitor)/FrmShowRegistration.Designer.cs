@@ -103,7 +103,7 @@
             this.btnMenu.TabIndex = 20;
             this.btnMenu.Text = "Voltar ao Menu";
             this.btnMenu.UseVisualStyleBackColor = true;
-            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
+            
             // 
             // lblName
             // 

@@ -19,10 +19,7 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         }
 
 
-        private void btnForm1_Click(object sender, EventArgs e)
-        {
-            new FrmMenu().Show();
-        }
+        
 
         private void linkLabelGitHub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

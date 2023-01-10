@@ -23,6 +23,7 @@ namespace AplicacaoWindowsC.NET_joaovitor_
             dataGridViewStats.DataSource = GitHubStatsProjects.ListGitHub();
         }
 
+        
     }
     public class GitHubStatsProjects
     {

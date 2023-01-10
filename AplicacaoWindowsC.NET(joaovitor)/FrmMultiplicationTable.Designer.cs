@@ -98,7 +98,7 @@
             this.btnClose.TabIndex = 20;
             this.btnClose.Text = "Voltar ao Menu";
             this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+           
             // 
             // listBox1
             // 

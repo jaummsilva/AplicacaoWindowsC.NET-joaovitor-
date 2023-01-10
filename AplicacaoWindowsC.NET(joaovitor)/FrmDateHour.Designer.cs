@@ -146,6 +146,7 @@
             this.Controls.Add(this.lblSeconds);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmDateHour";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmDateHour";
             this.Load += new System.EventHandler(this.FrmDateHour_Load);
             this.ResumeLayout(false);
