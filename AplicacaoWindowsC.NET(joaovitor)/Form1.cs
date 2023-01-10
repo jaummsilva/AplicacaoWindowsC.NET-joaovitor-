@@ -46,21 +46,10 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            var contextMenu = new ContextMenu();
-            contextMenu.MenuItems.Add(new MenuItem("Abrir Pagina Inicial", abrirForm1_Click));
-            contextMenu.MenuItems.Add(new MenuItem("Fechar", fechar_Click));
-            notifyIcon1.ContextMenu = contextMenu;
+            
 
         }
 
-        private void abrirForm1_Click(object sender, EventArgs e)
-        {
-            new Form1().Show();
-        }
-
-        private void fechar_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        
     }
 }
