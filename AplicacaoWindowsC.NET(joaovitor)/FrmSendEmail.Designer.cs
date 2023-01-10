@@ -42,20 +42,20 @@
             // labelNome
             // 
             this.labelNome.AutoSize = true;
-            this.labelNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNome.Location = new System.Drawing.Point(423, 121);
+            this.labelNome.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNome.Location = new System.Drawing.Point(452, 116);
             this.labelNome.Name = "labelNome";
-            this.labelNome.Size = new System.Drawing.Size(51, 20);
+            this.labelNome.Size = new System.Drawing.Size(47, 23);
             this.labelNome.TabIndex = 9;
             this.labelNome.Text = "Para:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(679, 29);
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(654, 24);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(161, 27);
+            this.label3.Size = new System.Drawing.Size(186, 40);
             this.label3.TabIndex = 10;
             this.label3.Text = "Enviar email";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -63,32 +63,34 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(423, 190);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(444, 185);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 20);
+            this.label1.Size = new System.Drawing.Size(58, 23);
             this.label1.TabIndex = 11;
             this.label1.Text = "Titulo:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(423, 305);
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(444, 298);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.Size = new System.Drawing.Size(60, 23);
             this.label2.TabIndex = 12;
             this.label2.Text = "Texto:";
             // 
             // textBoxTo
             // 
+            this.textBoxTo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxTo.Location = new System.Drawing.Point(533, 123);
             this.textBoxTo.Name = "textBoxTo";
-            this.textBoxTo.Size = new System.Drawing.Size(444, 20);
+            this.textBoxTo.Size = new System.Drawing.Size(444, 13);
             this.textBoxTo.TabIndex = 13;
             // 
             // textBoxSubject
             // 
+            this.textBoxSubject.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxSubject.Location = new System.Drawing.Point(533, 192);
             this.textBoxSubject.Multiline = true;
             this.textBoxSubject.Name = "textBoxSubject";
@@ -97,6 +99,7 @@
             // 
             // textBoxTextEmail
             // 
+            this.textBoxTextEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxTextEmail.Location = new System.Drawing.Point(533, 305);
             this.textBoxTextEmail.Multiline = true;
             this.textBoxTextEmail.Name = "textBoxTextEmail";
@@ -105,9 +108,10 @@
             // 
             // btnClose
             // 
-            this.btnClose.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnClose.BackColor = System.Drawing.Color.Turquoise;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClose.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClose.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(650, 536);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(190, 57);

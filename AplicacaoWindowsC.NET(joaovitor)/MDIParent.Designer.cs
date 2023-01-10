@@ -39,8 +39,8 @@
             this.tabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataEHoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreMimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +51,7 @@
             this.projetosToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1475, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(1475, 27);
             this.menuStrip2.TabIndex = 11;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -63,15 +63,16 @@
             this.funcionalidadesToolStripMenuItem,
             this.sobreMimToolStripMenuItem,
             this.sairToolStripMenuItem});
+            this.projetosToolStripMenuItem.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.projetosToolStripMenuItem.Name = "projetosToolStripMenuItem";
-            this.projetosToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.projetosToolStripMenuItem.Size = new System.Drawing.Size(57, 23);
             this.projetosToolStripMenuItem.Text = "Inicio";
             // 
             // repositóriosGitHubToolStripMenuItem
             // 
             this.repositóriosGitHubToolStripMenuItem.BackColor = System.Drawing.SystemColors.Highlight;
             this.repositóriosGitHubToolStripMenuItem.Name = "repositóriosGitHubToolStripMenuItem";
-            this.repositóriosGitHubToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.repositóriosGitHubToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
             this.repositóriosGitHubToolStripMenuItem.Text = "Repositórios GitHub";
             this.repositóriosGitHubToolStripMenuItem.Click += new System.EventHandler(this.repositóriosGitHubToolStripMenuItem_Click);
             // 
@@ -85,59 +86,59 @@
             this.enviarEmailToolStripMenuItem,
             this.dataEHoraToolStripMenuItem});
             this.funcionalidadesToolStripMenuItem.Name = "funcionalidadesToolStripMenuItem";
-            this.funcionalidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.funcionalidadesToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
             this.funcionalidadesToolStripMenuItem.Text = "Funcionalidades";
             // 
             // salvarArquivosToolStripMenuItem
             // 
             this.salvarArquivosToolStripMenuItem.Name = "salvarArquivosToolStripMenuItem";
-            this.salvarArquivosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salvarArquivosToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
             this.salvarArquivosToolStripMenuItem.Text = "Salvar Arquivos";
             this.salvarArquivosToolStripMenuItem.Click += new System.EventHandler(this.salvarArquivosToolStripMenuItem_Click);
             // 
             // formulárioCadastroToolStripMenuItem
             // 
             this.formulárioCadastroToolStripMenuItem.Name = "formulárioCadastroToolStripMenuItem";
-            this.formulárioCadastroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.formulárioCadastroToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
             this.formulárioCadastroToolStripMenuItem.Text = "Formulário cadastro";
             this.formulárioCadastroToolStripMenuItem.Click += new System.EventHandler(this.formulárioCadastroToolStripMenuItem_Click);
             // 
             // tabuadaToolStripMenuItem
             // 
             this.tabuadaToolStripMenuItem.Name = "tabuadaToolStripMenuItem";
-            this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
             this.tabuadaToolStripMenuItem.Text = "Tabuada";
             this.tabuadaToolStripMenuItem.Click += new System.EventHandler(this.tabuadaToolStripMenuItem_Click);
             // 
             // enviarEmailToolStripMenuItem
             // 
             this.enviarEmailToolStripMenuItem.Name = "enviarEmailToolStripMenuItem";
-            this.enviarEmailToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.enviarEmailToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
             this.enviarEmailToolStripMenuItem.Text = "Enviar email";
             this.enviarEmailToolStripMenuItem.Click += new System.EventHandler(this.enviarEmailToolStripMenuItem_Click);
             // 
             // dataEHoraToolStripMenuItem
             // 
             this.dataEHoraToolStripMenuItem.Name = "dataEHoraToolStripMenuItem";
-            this.dataEHoraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataEHoraToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
             this.dataEHoraToolStripMenuItem.Text = "Data e Hora";
             this.dataEHoraToolStripMenuItem.Click += new System.EventHandler(this.dataEHoraToolStripMenuItem_Click);
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.BackColor = System.Drawing.SystemColors.Highlight;
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // sobreMimToolStripMenuItem
             // 
             this.sobreMimToolStripMenuItem.BackColor = System.Drawing.SystemColors.Highlight;
             this.sobreMimToolStripMenuItem.Name = "sobreMimToolStripMenuItem";
-            this.sobreMimToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sobreMimToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
             this.sobreMimToolStripMenuItem.Text = "Sobre mim";
             this.sobreMimToolStripMenuItem.Click += new System.EventHandler(this.sobreMimToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.BackColor = System.Drawing.SystemColors.Highlight;
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // notifyIcon1
             // 

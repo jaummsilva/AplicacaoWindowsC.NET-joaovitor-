@@ -43,28 +43,29 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(657, 29);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(152, 37);
+            this.label3.Size = new System.Drawing.Size(151, 45);
             this.label3.TabIndex = 16;
             this.label3.Text = "Tabuada";
             // 
             // labelNome
             // 
             this.labelNome.AutoSize = true;
-            this.labelNome.Font = new System.Drawing.Font("Franklin Gothic Medium", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNome.Location = new System.Drawing.Point(397, 110);
+            this.labelNome.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNome.Location = new System.Drawing.Point(400, 109);
             this.labelNome.Name = "labelNome";
-            this.labelNome.Size = new System.Drawing.Size(162, 24);
+            this.labelNome.Size = new System.Drawing.Size(150, 23);
             this.labelNome.TabIndex = 17;
             this.labelNome.Text = "Digite um numero:";
             // 
             // btnMultiTable
             // 
-            this.btnMultiTable.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnMultiTable.BackColor = System.Drawing.Color.Turquoise;
             this.btnMultiTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMultiTable.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultiTable.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMultiTable.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiTable.ForeColor = System.Drawing.Color.Black;
             this.btnMultiTable.Location = new System.Drawing.Point(930, 148);
             this.btnMultiTable.Name = "btnMultiTable";
@@ -76,9 +77,10 @@
             // 
             // btnReset
             // 
-            this.btnReset.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnReset.BackColor = System.Drawing.Color.Turquoise;
             this.btnReset.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReset.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnReset.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.Location = new System.Drawing.Point(930, 247);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(190, 57);
@@ -89,32 +91,34 @@
             // 
             // btnClose
             // 
-            this.btnClose.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnClose.BackColor = System.Drawing.Color.Turquoise;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClose.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClose.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(930, 353);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(190, 57);
             this.btnClose.TabIndex = 20;
             this.btnClose.Text = "Voltar ao Menu";
             this.btnClose.UseVisualStyleBackColor = false;
-           
             // 
             // listBox1
             // 
-            this.listBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.listBox1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(404, 159);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(485, 251);
+            this.listBox1.Size = new System.Drawing.Size(485, 247);
             this.listBox1.TabIndex = 22;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // textBoxMultiTable
             // 
-            this.textBoxMultiTable.Location = new System.Drawing.Point(565, 114);
+            this.textBoxMultiTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxMultiTable.Location = new System.Drawing.Point(561, 116);
             this.textBoxMultiTable.Name = "textBoxMultiTable";
-            this.textBoxMultiTable.Size = new System.Drawing.Size(328, 20);
+            this.textBoxMultiTable.Size = new System.Drawing.Size(328, 13);
             this.textBoxMultiTable.TabIndex = 23;
             // 
             // notifyIconMultiTable

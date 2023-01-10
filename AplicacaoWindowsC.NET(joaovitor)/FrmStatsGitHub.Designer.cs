@@ -50,7 +50,7 @@
             // 
             this.dataGridViewStats.AutoGenerateColumns = false;
             this.dataGridViewStats.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridViewStats.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridViewStats.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewStats.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewStats.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idDataGridViewTextBoxColumn,
@@ -66,7 +66,7 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewStats.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridViewStats.Location = new System.Drawing.Point(128, 86);
+            this.dataGridViewStats.Location = new System.Drawing.Point(152, 107);
             this.dataGridViewStats.Name = "dataGridViewStats";
             this.dataGridViewStats.Size = new System.Drawing.Size(842, 559);
             this.dataGridViewStats.TabIndex = 0;
@@ -74,10 +74,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(215, 30);
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(260, 23);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(672, 38);
+            this.label3.Size = new System.Drawing.Size(656, 45);
             this.label3.TabIndex = 11;
             this.label3.Text = "Repositório do GitHub em DataGridView ";
             // 

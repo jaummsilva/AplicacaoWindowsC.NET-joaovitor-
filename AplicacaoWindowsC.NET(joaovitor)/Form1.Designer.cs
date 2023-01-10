@@ -79,30 +79,31 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(857, 27);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(304, 37);
+            this.label3.Size = new System.Drawing.Size(324, 45);
             this.label3.TabIndex = 10;
             this.label3.Text = "João Vitor da Silva";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(768, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 20);
+            this.label2.Size = new System.Drawing.Size(204, 23);
             this.label2.TabIndex = 11;
             this.label2.Text = "18y | Téc. em Informática";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(768, 125);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(440, 20);
+            this.label4.Size = new System.Drawing.Size(461, 23);
             this.label4.TabIndex = 12;
             this.label4.Text = "Formado em Instituo Federal Catarinense - Campus Araquari";
             // 
@@ -118,10 +119,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(860, 189);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 20);
+            this.label5.Size = new System.Drawing.Size(68, 23);
             this.label5.TabIndex = 14;
             this.label5.Text = "GitHub:";
             // 
@@ -137,10 +138,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(860, 278);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 20);
+            this.label1.Size = new System.Drawing.Size(93, 23);
             this.label1.TabIndex = 17;
             this.label1.Text = "Instagram:";
             // 
@@ -156,20 +157,20 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(860, 352);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 20);
+            this.label6.Size = new System.Drawing.Size(75, 23);
             this.label6.TabIndex = 20;
             this.label6.Text = "Linkedin:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(766, 477);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(366, 33);
+            this.label7.Size = new System.Drawing.Size(369, 40);
             this.label7.TabIndex = 22;
             this.label7.Text = "Linguagens - frameworks";
             // 
@@ -185,10 +186,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(102, 617);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(65, 18);
+            this.label8.Size = new System.Drawing.Size(67, 23);
             this.label8.TabIndex = 24;
             this.label8.Text = "HTML5";
             // 
@@ -204,17 +205,17 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(379, 617);
+            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(379, 622);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(45, 18);
+            this.label9.Size = new System.Drawing.Size(52, 23);
             this.label9.TabIndex = 27;
             this.label9.Text = "CSS3";
             // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(611, 543);
+            this.pictureBox7.Location = new System.Drawing.Point(625, 543);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(54, 50);
             this.pictureBox7.TabIndex = 28;
@@ -223,17 +224,18 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(588, 617);
+            this.label10.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(598, 622);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 18);
+            this.label10.Size = new System.Drawing.Size(115, 23);
             this.label10.TabIndex = 29;
             this.label10.Text = "JAVASCRIPT";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(893, 543);
+            this.pictureBox8.Location = new System.Drawing.Point(901, 543);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(52, 50);
             this.pictureBox8.TabIndex = 30;
@@ -242,10 +244,10 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(888, 617);
+            this.label11.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(890, 622);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(76, 18);
+            this.label11.Size = new System.Drawing.Size(78, 23);
             this.label11.TabIndex = 31;
             this.label11.Text = "PYTHON";
             // 
@@ -261,10 +263,10 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(1156, 617);
+            this.label12.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(1153, 622);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(28, 18);
+            this.label12.Size = new System.Drawing.Size(33, 23);
             this.label12.TabIndex = 33;
             this.label12.Text = "C#";
             // 
@@ -280,21 +282,21 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(1387, 617);
+            this.label13.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(1387, 622);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(58, 18);
+            this.label13.Size = new System.Drawing.Size(64, 23);
             this.label13.TabIndex = 36;
             this.label13.Text = "VUEJS";
             // 
             // linkLabelGitHub
             // 
             this.linkLabelGitHub.AutoSize = true;
-            this.linkLabelGitHub.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelGitHub.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabelGitHub.LinkColor = System.Drawing.Color.Black;
             this.linkLabelGitHub.Location = new System.Drawing.Point(959, 189);
             this.linkLabelGitHub.Name = "linkLabelGitHub";
-            this.linkLabelGitHub.Size = new System.Drawing.Size(122, 24);
+            this.linkLabelGitHub.Size = new System.Drawing.Size(126, 27);
             this.linkLabelGitHub.TabIndex = 37;
             this.linkLabelGitHub.TabStop = true;
             this.linkLabelGitHub.Text = "@jaummsilva";
@@ -303,11 +305,11 @@
             // linkLabelInstragram
             // 
             this.linkLabelInstragram.AutoSize = true;
-            this.linkLabelInstragram.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelInstragram.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabelInstragram.LinkColor = System.Drawing.Color.Black;
             this.linkLabelInstragram.Location = new System.Drawing.Point(959, 274);
             this.linkLabelInstragram.Name = "linkLabelInstragram";
-            this.linkLabelInstragram.Size = new System.Drawing.Size(129, 24);
+            this.linkLabelInstragram.Size = new System.Drawing.Size(131, 27);
             this.linkLabelInstragram.TabIndex = 38;
             this.linkLabelInstragram.TabStop = true;
             this.linkLabelInstragram.Text = "@jaumm.silva";
@@ -316,11 +318,11 @@
             // linkLabelLinkedin
             // 
             this.linkLabelLinkedin.AutoSize = true;
-            this.linkLabelLinkedin.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelLinkedin.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabelLinkedin.LinkColor = System.Drawing.Color.Black;
             this.linkLabelLinkedin.Location = new System.Drawing.Point(959, 349);
             this.linkLabelLinkedin.Name = "linkLabelLinkedin";
-            this.linkLabelLinkedin.Size = new System.Drawing.Size(160, 24);
+            this.linkLabelLinkedin.Size = new System.Drawing.Size(169, 27);
             this.linkLabelLinkedin.TabIndex = 39;
             this.linkLabelLinkedin.TabStop = true;
             this.linkLabelLinkedin.Text = "@joãovitordasilva";
