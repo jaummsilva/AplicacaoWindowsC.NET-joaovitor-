@@ -34,7 +34,6 @@
             this.labelNome = new System.Windows.Forms.Label();
             this.btnMultiTable = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBoxMultiTable = new System.Windows.Forms.TextBox();
             this.notifyIconMultiTable = new System.Windows.Forms.NotifyIcon(this.components);
@@ -89,19 +88,6 @@
             this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // btnClose
-            // 
-            this.btnClose.BackColor = System.Drawing.Color.Turquoise;
-            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnClose.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(930, 353);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(190, 57);
-            this.btnClose.TabIndex = 20;
-            this.btnClose.Text = "Voltar ao Menu";
-            this.btnClose.UseVisualStyleBackColor = false;
-            // 
             // listBox1
             // 
             this.listBox1.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -135,7 +121,6 @@
             this.ClientSize = new System.Drawing.Size(1443, 718);
             this.Controls.Add(this.textBoxMultiTable);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnMultiTable);
             this.Controls.Add(this.labelNome);
@@ -153,7 +138,6 @@
         private System.Windows.Forms.Label labelNome;
         private System.Windows.Forms.Button btnMultiTable;
         private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBoxMultiTable;
         private System.Windows.Forms.NotifyIcon notifyIconMultiTable;

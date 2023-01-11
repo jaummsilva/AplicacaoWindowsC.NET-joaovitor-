@@ -60,8 +60,8 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         
         private void Save()
         {
-            File.WriteAllText(@"c:\db\" + textName2.Text + DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss") + ".txt", SaveAllText());
-            MessageBox.Show("Texto Salvado com sucesso");
+            File.WriteAllText(@"C:\Users\Public\" + textName2.Text + DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss") + ".txt", SaveAllText());
+            MessageBox.Show("Texto Salvado com sucesso em : C:\\Users\\Public\\");
             textName2.Text = string.Empty;
         }
 

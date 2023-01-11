@@ -25,9 +25,9 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void Save()
         {
-            File.WriteAllText(@"c:\db\" + textBoxName.Text + DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss") + ".txt", textBoxSave.Text
+            File.WriteAllText(@"C:\Users\Public\" + textBoxName.Text + DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss") + ".txt", textBoxSave.Text
                 );
-            MessageBox.Show("Texto Salvado com sucesso");
+            MessageBox.Show("Texto Salvado com sucesso em : C:\\Users\\Public\\ ");
             textBoxSave.Text = string.Empty;
         }
     }
