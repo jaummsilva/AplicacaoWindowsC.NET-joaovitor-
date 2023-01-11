@@ -38,6 +38,7 @@ namespace AplicacaoWindowsC.NET_joaovitor_
                 form.lblTel.Text = maskedTextBoxTelefone.Text;
                 form.MdiParent = MDISingleton.InstanciaMDI();   
                 form.Show();
+                SaveAllText();
                 Save();
 
             }
@@ -50,9 +51,16 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         }
 
+        private string SaveAllText ()
+        {
+            return ("Nome: " + textName2.Text  + "; " + "\n" + "Idade: " + textAge.Text + "; " + "\n" + "Cidade: " + textCity.Text + "; " + "\n" + "Estado: " + comboBoxState.Text
+                + "; " + "\n" +   "Telefone: " + maskedTextBoxTelefone.Text + ";"
+                );
+        } 
+        
         private void Save()
         {
-            File.WriteAllText(@"c:\db\" + textName2.Text + DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss") + ".txt", textName2.Text);
+            File.WriteAllText(@"c:\db\" + textName2.Text + DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss") + ".txt", SaveAllText());
             MessageBox.Show("Texto Salvado com sucesso");
             textName2.Text = string.Empty;
         }

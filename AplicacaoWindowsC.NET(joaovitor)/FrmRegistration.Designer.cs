@@ -201,11 +201,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnOpen;
-        private System.Windows.Forms.TextBox textName2;
-        private System.Windows.Forms.TextBox textAge;
-        private System.Windows.Forms.TextBox textCity;
-        private System.Windows.Forms.ComboBox comboBoxState;
+        public System.Windows.Forms.TextBox textName2;
+        public System.Windows.Forms.TextBox textAge;
+        public System.Windows.Forms.TextBox textCity;
+        public System.Windows.Forms.ComboBox comboBoxState;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.MaskedTextBox maskedTextBoxTelefone;
+        public System.Windows.Forms.MaskedTextBox maskedTextBoxTelefone;
     }
 }
