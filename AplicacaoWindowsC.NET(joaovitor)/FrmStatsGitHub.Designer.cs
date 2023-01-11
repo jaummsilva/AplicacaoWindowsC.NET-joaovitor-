@@ -36,12 +36,12 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStatsGitHub));
             this.dataGridViewStats = new System.Windows.Forms.DataGridView();
+            this.gitHubStatsProjectsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.languageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gitHubStatsProjectsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStats)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gitHubStatsProjectsBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -71,6 +71,10 @@
             this.dataGridViewStats.Size = new System.Drawing.Size(842, 559);
             this.dataGridViewStats.TabIndex = 0;
             // 
+            // gitHubStatsProjectsBindingSource
+            // 
+            this.gitHubStatsProjectsBindingSource.DataSource = typeof(AplicacaoWindowsC.NET_joaovitor_.GitHubStatsProjects);
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -94,7 +98,7 @@
             // 
             this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.nameDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
@@ -124,10 +128,6 @@
             this.descriptionDataGridViewTextBoxColumn.HeaderText = "description";
             this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
             this.descriptionDataGridViewTextBoxColumn.Width = 350;
-            // 
-            // gitHubStatsProjectsBindingSource
-            // 
-            this.gitHubStatsProjectsBindingSource.DataSource = typeof(AplicacaoWindowsC.NET_joaovitor_.GitHubStatsProjects);
             // 
             // FrmStatsGitHub
             // 

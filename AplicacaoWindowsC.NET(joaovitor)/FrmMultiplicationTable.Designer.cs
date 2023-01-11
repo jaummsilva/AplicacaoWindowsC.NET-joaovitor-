@@ -103,8 +103,9 @@
             // 
             this.textBoxMultiTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxMultiTable.Location = new System.Drawing.Point(561, 116);
+            this.textBoxMultiTable.Multiline = true;
             this.textBoxMultiTable.Name = "textBoxMultiTable";
-            this.textBoxMultiTable.Size = new System.Drawing.Size(328, 13);
+            this.textBoxMultiTable.Size = new System.Drawing.Size(328, 20);
             this.textBoxMultiTable.TabIndex = 23;
             // 
             // notifyIconMultiTable

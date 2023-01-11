@@ -39,7 +39,7 @@
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.Color.Turquoise;
-            this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSave.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSave.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -50,11 +50,13 @@
             this.btnSave.TabIndex = 0;
             this.btnSave.Text = "Salvar";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.UseWaitCursor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // textBoxSave
             // 
             this.textBoxSave.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxSave.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.textBoxSave.Location = new System.Drawing.Point(35, 199);
             this.textBoxSave.Multiline = true;
             this.textBoxSave.Name = "textBoxSave";
@@ -87,6 +89,7 @@
             // textBoxName
             // 
             this.textBoxName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxName.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.textBoxName.Location = new System.Drawing.Point(35, 141);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(482, 13);

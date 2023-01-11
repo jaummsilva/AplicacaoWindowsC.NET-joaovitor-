@@ -130,6 +130,7 @@
             // textCity
             // 
             this.textCity.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textCity.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textCity.Location = new System.Drawing.Point(482, 205);
             this.textCity.Multiline = true;
             this.textCity.Name = "textCity";
@@ -164,7 +165,6 @@
             this.maskedTextBoxTelefone.Size = new System.Drawing.Size(467, 13);
             this.maskedTextBoxTelefone.TabIndex = 19;
             this.maskedTextBoxTelefone.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
-   
             // 
             // FrmRegistration
             // 
