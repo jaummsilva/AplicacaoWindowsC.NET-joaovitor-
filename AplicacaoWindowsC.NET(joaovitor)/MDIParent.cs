@@ -152,6 +152,11 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void MDIParent_Load(object sender, EventArgs e)
         {
+            var form = new Form1();
+            form.MdiParent = MDISingleton.InstanciaMDI();
+            form.Show();
+
+
             var contextMenu = new ContextMenu();
             contextMenu.MenuItems.Add(new MenuItem("Abrir Pagina Inicial", abrirForm1_Click));
             contextMenu.MenuItems.Add(new MenuItem("Fechar", fechar_Click));

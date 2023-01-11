@@ -16,7 +16,5 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         {
             InitializeComponent();
         }
-
-        
     }
 }

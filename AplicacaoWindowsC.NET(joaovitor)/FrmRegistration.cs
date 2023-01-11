@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace AplicacaoWindowsC.NET_joaovitor_
 {
@@ -33,8 +35,10 @@ namespace AplicacaoWindowsC.NET_joaovitor_
                 form.lblState.Text = comboBoxState.Text;
                 int age = (int)Convert.ToInt64(textAge.Text);
                 form.lblAge.Text = age.ToString();
-                form.MdiParent = MDISingleton.InstanciaMDI();
+                form.lblTel.Text = maskedTextBoxTelefone.Text;
+                form.MdiParent = MDISingleton.InstanciaMDI();   
                 form.Show();
+                Save();
 
             }
             catch
@@ -43,6 +47,23 @@ namespace AplicacaoWindowsC.NET_joaovitor_
                 textAge.Focus();
             }
             
+
+        }
+
+        private void Save()
+        {
+            File.WriteAllText(@"c:\db\" + textName2.Text + DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss") + ".txt", textName2.Text);
+            MessageBox.Show("Texto Salvado com sucesso");
+            textName2.Text = string.Empty;
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void FrmRegistration_Layout(object sender, LayoutEventArgs e)
+        {
 
         }
     }

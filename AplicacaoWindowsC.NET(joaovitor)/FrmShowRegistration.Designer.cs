@@ -34,11 +34,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnMenu = new System.Windows.Forms.Button();
             this.lblName = new System.Windows.Forms.Label();
             this.lblAge = new System.Windows.Forms.Label();
             this.lblCity = new System.Windows.Forms.Label();
             this.lblState = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblTel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelTituloForm2
@@ -95,19 +96,6 @@
             this.label6.TabIndex = 18;
             this.label6.Text = "Estado:";
             // 
-            // btnMenu
-            // 
-            this.btnMenu.BackColor = System.Drawing.Color.Turquoise;
-            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMenu.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenu.ForeColor = System.Drawing.Color.Black;
-            this.btnMenu.Location = new System.Drawing.Point(569, 404);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(201, 50);
-            this.btnMenu.TabIndex = 20;
-            this.btnMenu.Text = "Voltar ao Menu";
-            this.btnMenu.UseVisualStyleBackColor = false;
-            // 
             // lblName
             // 
             this.lblName.AutoSize = true;
@@ -152,16 +140,39 @@
             this.lblState.TabIndex = 24;
             this.lblState.Text = "Escrever em run time";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label4.Location = new System.Drawing.Point(387, 386);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(137, 38);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "Telefone:";
+            // 
+            // lblTel
+            // 
+            this.lblTel.AutoSize = true;
+            this.lblTel.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTel.ForeColor = System.Drawing.Color.Black;
+            this.lblTel.Location = new System.Drawing.Point(547, 386);
+            this.lblTel.Name = "lblTel";
+            this.lblTel.Size = new System.Drawing.Size(321, 40);
+            this.lblTel.TabIndex = 26;
+            this.lblTel.Text = "Escrever em run time";
+            // 
             // FrmShowRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1405, 712);
+            this.Controls.Add(this.lblTel);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lblState);
             this.Controls.Add(this.lblCity);
             this.Controls.Add(this.lblAge);
             this.Controls.Add(this.lblName);
-            this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -182,10 +193,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btnMenu;
         public System.Windows.Forms.Label lblName;
         public System.Windows.Forms.Label lblAge;
         public System.Windows.Forms.Label lblCity;
         public System.Windows.Forms.Label lblState;
+        private System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label lblTel;
     }
 }
