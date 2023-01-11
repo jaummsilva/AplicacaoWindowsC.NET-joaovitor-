@@ -23,12 +23,12 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void linkLabelGitHub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://www.instagram.com/jaumm.silva/");
+            Process.Start("https://github.com/jaummsilva");
         }
 
         private void linkLabelInstragram_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://www.linkedin.com/in/jo%C3%A3ovitordasilva/");
+            Process.Start("https://www.instagram.com/jaumm.silva/");
         }
 
         private void linkLabelLinkedin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
