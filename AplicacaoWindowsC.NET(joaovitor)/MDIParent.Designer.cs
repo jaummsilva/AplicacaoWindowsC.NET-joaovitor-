@@ -42,6 +42,7 @@
             this.sobreMimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.importarArquivosComProgressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,7 +85,8 @@
             this.formulárioCadastroToolStripMenuItem,
             this.tabuadaToolStripMenuItem,
             this.enviarEmailToolStripMenuItem,
-            this.dataEHoraToolStripMenuItem});
+            this.dataEHoraToolStripMenuItem,
+            this.importarArquivosComProgressBarToolStripMenuItem});
             this.funcionalidadesToolStripMenuItem.Name = "funcionalidadesToolStripMenuItem";
             this.funcionalidadesToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
             this.funcionalidadesToolStripMenuItem.Text = "Funcionalidades";
@@ -146,6 +148,13 @@
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             // 
+            // importarArquivosComProgressBarToolStripMenuItem
+            // 
+            this.importarArquivosComProgressBarToolStripMenuItem.Name = "importarArquivosComProgressBarToolStripMenuItem";
+            this.importarArquivosComProgressBarToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
+            this.importarArquivosComProgressBarToolStripMenuItem.Text = "Importar Arquivos com Progress Bar";
+            this.importarArquivosComProgressBarToolStripMenuItem.Click += new System.EventHandler(this.importarArquivosComProgressBarToolStripMenuItem_Click);
+            // 
             // MDIParent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -177,6 +186,7 @@
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreMimToolStripMenuItem;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.ToolStripMenuItem importarArquivosComProgressBarToolStripMenuItem;
     }
 }
 

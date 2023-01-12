@@ -104,56 +104,56 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         private void salvarArquivosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var salvarArquivos = new FrmSave();
-            salvarArquivos.MdiParent = MDISingleton.InstanciaMDI();
+            salvarArquivos.MdiParent = this;
             salvarArquivos.Show();
         }
 
         private void sobreMimToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var form = new Form1();
-            form.MdiParent = MDISingleton.InstanciaMDI();
+            form.MdiParent = this;
             form.Show();
         }
 
         private void repositóriosGitHubToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var repositorioGitHub = new FrmStatsGitHub();
-            repositorioGitHub.MdiParent = MDISingleton.InstanciaMDI();
+            repositorioGitHub.MdiParent = this;
             repositorioGitHub.Show();
         }
 
         private void formulárioCadastroToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var formularioCadastro = new FrmRegistration();
-            formularioCadastro.MdiParent = MDISingleton.InstanciaMDI();
+            formularioCadastro.MdiParent = this;
             formularioCadastro.Show();
         }
 
         private void tabuadaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var tabuada = new FrmMultiplicationTable();
-            tabuada.MdiParent = MDISingleton.InstanciaMDI();
+            tabuada.MdiParent = this;
             tabuada.Show();
         }
 
         private void enviarEmailToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var enviarEmail = new FrmSendEmail();
-            enviarEmail.MdiParent = MDISingleton.InstanciaMDI();
+            enviarEmail.MdiParent = this;
             enviarEmail.Show();
         }
 
         private void dataEHoraToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var dataHora = new FrmDateHour();
-            dataHora.MdiParent = MDISingleton.InstanciaMDI();
+            dataHora.MdiParent = this;
             dataHora.Show();
         }
 
         private void MDIParent_Load(object sender, EventArgs e)
         {
             var form = new Form1();
-            form.MdiParent = MDISingleton.InstanciaMDI();
+            form.MdiParent = this;
             form.Show();
 
 
@@ -165,7 +165,7 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         private void abrirForm1_Click(object sender, EventArgs e)
         {
             var abrirForm1 = new Form1();
-            abrirForm1.MdiParent = MDISingleton.InstanciaMDI();
+            abrirForm1.MdiParent = this;
             abrirForm1.Show();
             
         }
@@ -173,6 +173,13 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         private void fechar_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void importarArquivosComProgressBarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var importarArquivo = new FrmImport();
+            importarArquivo.MdiParent = this;
+            importarArquivo.Show();
         }
     }
 }
