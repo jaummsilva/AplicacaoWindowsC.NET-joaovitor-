@@ -181,5 +181,10 @@ namespace AplicacaoWindowsC.NET_joaovitor_
             importarArquivo.MdiParent = this;
             importarArquivo.Show();
         }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
