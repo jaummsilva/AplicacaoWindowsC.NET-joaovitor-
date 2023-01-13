@@ -27,34 +27,14 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
-            try
-            {
-                var form = new FrmShowRegistration();
-                form.lblName.Text = textName2.Text;
-                form.lblCity.Text = textCity.Text;
-                form.lblState.Text = comboBoxState.Text;
-                int age = (int)Convert.ToInt64(textAge.Text);
-                form.lblAge.Text = age.ToString();
-                form.lblTel.Text = maskedTextBoxTelefone.Text;
-                form.MdiParent = MDISingleton.InstanciaMDI();   
-                form.Show();
-                SaveAllText();
-                Save();
-
-            }
-            catch
-            {
-                MessageBox.Show("Não use caracteres em Idade");
-                textAge.Focus();
-            }
-            
-
+            TabPage.SelectTab("tabPage2");
         }
 
         private string SaveAllText ()
         {
             return ("Nome: " + textName2.Text  + "; " + "\n" + "Idade: " + textAge.Text + "; " + "\n" + "Cidade: " + textCity.Text + "; " + "\n" + "Estado: " + comboBoxState.Text
-                + "; " + "\n" +   "Telefone: " + maskedTextBoxTelefone.Text + ";"
+                + "; " + "\n" +   "Telefone: " + maskedTextBoxTelefone.Text + ";" + "\n" + textBoxEmail.Text + ";" + "\n" +
+                textBoxSexo.Text + ";" + "\n" + maskedTextBoxDN.Text + ";" + "\n" + maskedTextBoxCPF + ";" + "\n"
                 );
         } 
         
@@ -73,6 +53,44 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         private void FrmRegistration_Layout(object sender, LayoutEventArgs e)
         {
 
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var form = new FrmShowRegistration();
+                form.lblName.Text = textName2.Text;
+                form.lblCity.Text = textCity.Text;
+                form.lblState.Text = comboBoxState.Text;
+                int age = (int)Convert.ToInt64(textAge.Text);
+                form.lblAge.Text = age.ToString();
+                form.lblEmail.Text = maskedTextBoxTelefone.Text;
+                form.lblEmail.Text = textBoxEmail.Text;
+                form.lblSexo.Text = textBoxSexo.Text;
+                form.lblDataNasc.Text = maskedTextBoxDN.Text;
+                form.lblCPF.Text = maskedTextBoxCPF.Text;
+                form.MdiParent = MDISingleton.InstanciaMDI();
+                form.Show();
+                SaveAllText();
+                Save();
+
+            }
+            catch
+            {
+                MessageBox.Show("Não use caracteres em Idade");
+                textAge.Focus();
+            }
         }
     }
     public class State

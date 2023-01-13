@@ -36,12 +36,12 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStatsGitHub));
             this.dataGridViewStats = new System.Windows.Forms.DataGridView();
-            this.gitHubStatsProjectsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.label3 = new System.Windows.Forms.Label();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.languageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gitHubStatsProjectsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStats)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gitHubStatsProjectsBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -70,20 +70,7 @@
             this.dataGridViewStats.Name = "dataGridViewStats";
             this.dataGridViewStats.Size = new System.Drawing.Size(842, 559);
             this.dataGridViewStats.TabIndex = 0;
-            // 
-            // gitHubStatsProjectsBindingSource
-            // 
-            this.gitHubStatsProjectsBindingSource.DataSource = typeof(AplicacaoWindowsC.NET_joaovitor_.GitHubStatsProjects);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(260, 23);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(656, 45);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Repositório do GitHub em DataGridView ";
+            this.dataGridViewStats.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewStats_CellContentClick);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -128,6 +115,20 @@
             this.descriptionDataGridViewTextBoxColumn.HeaderText = "description";
             this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
             this.descriptionDataGridViewTextBoxColumn.Width = 350;
+            // 
+            // gitHubStatsProjectsBindingSource
+            // 
+            this.gitHubStatsProjectsBindingSource.DataSource = typeof(AplicacaoWindowsC.NET_joaovitor_.GitHubStatsProjects);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(260, 23);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(656, 45);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Repositório do GitHub em DataGridView ";
             // 
             // FrmStatsGitHub
             // 

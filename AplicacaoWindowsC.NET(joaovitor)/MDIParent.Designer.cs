@@ -39,13 +39,15 @@
             this.tabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataEHoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.importarArquivosComProgressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreMimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.importarArquivosComProgressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.panelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -90,7 +92,9 @@
             this.tabuadaToolStripMenuItem,
             this.enviarEmailToolStripMenuItem,
             this.dataEHoraToolStripMenuItem,
-            this.importarArquivosComProgressBarToolStripMenuItem});
+            this.importarArquivosComProgressBarToolStripMenuItem,
+            this.panelToolStripMenuItem,
+            this.tabControlToolStripMenuItem});
             this.funcionalidadesToolStripMenuItem.Name = "funcionalidadesToolStripMenuItem";
             this.funcionalidadesToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
             this.funcionalidadesToolStripMenuItem.Text = "Funcionalidades";
@@ -98,37 +102,44 @@
             // salvarArquivosToolStripMenuItem
             // 
             this.salvarArquivosToolStripMenuItem.Name = "salvarArquivosToolStripMenuItem";
-            this.salvarArquivosToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.salvarArquivosToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
             this.salvarArquivosToolStripMenuItem.Text = "Salvar Arquivos";
             this.salvarArquivosToolStripMenuItem.Click += new System.EventHandler(this.salvarArquivosToolStripMenuItem_Click);
             // 
             // formulárioCadastroToolStripMenuItem
             // 
             this.formulárioCadastroToolStripMenuItem.Name = "formulárioCadastroToolStripMenuItem";
-            this.formulárioCadastroToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.formulárioCadastroToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
             this.formulárioCadastroToolStripMenuItem.Text = "Formulário cadastro";
             this.formulárioCadastroToolStripMenuItem.Click += new System.EventHandler(this.formulárioCadastroToolStripMenuItem_Click);
             // 
             // tabuadaToolStripMenuItem
             // 
             this.tabuadaToolStripMenuItem.Name = "tabuadaToolStripMenuItem";
-            this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
             this.tabuadaToolStripMenuItem.Text = "Tabuada";
             this.tabuadaToolStripMenuItem.Click += new System.EventHandler(this.tabuadaToolStripMenuItem_Click);
             // 
             // enviarEmailToolStripMenuItem
             // 
             this.enviarEmailToolStripMenuItem.Name = "enviarEmailToolStripMenuItem";
-            this.enviarEmailToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.enviarEmailToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
             this.enviarEmailToolStripMenuItem.Text = "Enviar email";
             this.enviarEmailToolStripMenuItem.Click += new System.EventHandler(this.enviarEmailToolStripMenuItem_Click);
             // 
             // dataEHoraToolStripMenuItem
             // 
             this.dataEHoraToolStripMenuItem.Name = "dataEHoraToolStripMenuItem";
-            this.dataEHoraToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.dataEHoraToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
             this.dataEHoraToolStripMenuItem.Text = "Data e Hora";
             this.dataEHoraToolStripMenuItem.Click += new System.EventHandler(this.dataEHoraToolStripMenuItem_Click);
+            // 
+            // importarArquivosComProgressBarToolStripMenuItem
+            // 
+            this.importarArquivosComProgressBarToolStripMenuItem.Name = "importarArquivosComProgressBarToolStripMenuItem";
+            this.importarArquivosComProgressBarToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
+            this.importarArquivosComProgressBarToolStripMenuItem.Text = "Importar Arquivos com Progress Bar";
+            this.importarArquivosComProgressBarToolStripMenuItem.Click += new System.EventHandler(this.importarArquivosComProgressBarToolStripMenuItem_Click);
             // 
             // sobreMimToolStripMenuItem
             // 
@@ -151,13 +162,6 @@
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
-            // 
-            // importarArquivosComProgressBarToolStripMenuItem
-            // 
-            this.importarArquivosComProgressBarToolStripMenuItem.Name = "importarArquivosComProgressBarToolStripMenuItem";
-            this.importarArquivosComProgressBarToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
-            this.importarArquivosComProgressBarToolStripMenuItem.Text = "Importar Arquivos com Progress Bar";
-            this.importarArquivosComProgressBarToolStripMenuItem.Click += new System.EventHandler(this.importarArquivosComProgressBarToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
@@ -183,6 +187,20 @@
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
             this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 17);
             this.toolStripProgressBar1.Value = 50;
+            // 
+            // panelToolStripMenuItem
+            // 
+            this.panelToolStripMenuItem.Name = "panelToolStripMenuItem";
+            this.panelToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
+            this.panelToolStripMenuItem.Text = "Panel";
+            this.panelToolStripMenuItem.Click += new System.EventHandler(this.panelToolStripMenuItem_Click);
+            // 
+            // tabControlToolStripMenuItem
+            // 
+            this.tabControlToolStripMenuItem.Name = "tabControlToolStripMenuItem";
+            this.tabControlToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
+            this.tabControlToolStripMenuItem.Text = "Tab Control";
+            this.tabControlToolStripMenuItem.Click += new System.EventHandler(this.tabControlToolStripMenuItem_Click);
             // 
             // MDIParent
             // 
@@ -222,6 +240,8 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.ToolStripMenuItem panelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tabControlToolStripMenuItem;
     }
 }
 
