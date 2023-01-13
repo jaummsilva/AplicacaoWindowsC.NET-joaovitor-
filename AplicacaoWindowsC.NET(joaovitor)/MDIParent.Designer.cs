@@ -42,11 +42,12 @@
             this.importarArquivosComProgressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreMimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.treeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
-            this.treeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.webBrowserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -55,7 +56,8 @@
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.projetosToolStripMenuItem,
-            this.treeViewToolStripMenuItem});
+            this.treeViewToolStripMenuItem,
+            this.webBrowserToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(1475, 27);
@@ -155,6 +157,13 @@
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
+            // treeViewToolStripMenuItem
+            // 
+            this.treeViewToolStripMenuItem.Name = "treeViewToolStripMenuItem";
+            this.treeViewToolStripMenuItem.Size = new System.Drawing.Size(68, 23);
+            this.treeViewToolStripMenuItem.Text = "Tree View";
+            this.treeViewToolStripMenuItem.Click += new System.EventHandler(this.treeViewToolStripMenuItem_Click);
+            // 
             // notifyIcon1
             // 
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
@@ -186,12 +195,12 @@
             this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 17);
             this.toolStripProgressBar1.Value = 50;
             // 
-            // treeViewToolStripMenuItem
+            // webBrowserToolStripMenuItem
             // 
-            this.treeViewToolStripMenuItem.Name = "treeViewToolStripMenuItem";
-            this.treeViewToolStripMenuItem.Size = new System.Drawing.Size(68, 23);
-            this.treeViewToolStripMenuItem.Text = "Tree View";
-            this.treeViewToolStripMenuItem.Click += new System.EventHandler(this.treeViewToolStripMenuItem_Click);
+            this.webBrowserToolStripMenuItem.Name = "webBrowserToolStripMenuItem";
+            this.webBrowserToolStripMenuItem.Size = new System.Drawing.Size(85, 23);
+            this.webBrowserToolStripMenuItem.Text = "WebBrowser";
+            this.webBrowserToolStripMenuItem.Click += new System.EventHandler(this.webBrowserToolStripMenuItem_Click);
             // 
             // MDIParent
             // 
@@ -232,6 +241,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
         private System.Windows.Forms.ToolStripMenuItem treeViewToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem webBrowserToolStripMenuItem;
     }
 }
 

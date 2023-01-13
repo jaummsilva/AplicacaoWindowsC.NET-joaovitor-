@@ -197,5 +197,10 @@ namespace AplicacaoWindowsC.NET_joaovitor_
             panelTab.Show();
 
         }
+
+        private void webBrowserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmWebBrowser().Show();
+        }
     }
 }
