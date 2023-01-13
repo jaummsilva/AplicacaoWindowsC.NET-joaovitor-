@@ -46,8 +46,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
-            this.panelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.treeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -55,7 +54,8 @@
             // menuStrip2
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.projetosToolStripMenuItem});
+            this.projetosToolStripMenuItem,
+            this.treeViewToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(1475, 27);
@@ -92,9 +92,7 @@
             this.tabuadaToolStripMenuItem,
             this.enviarEmailToolStripMenuItem,
             this.dataEHoraToolStripMenuItem,
-            this.importarArquivosComProgressBarToolStripMenuItem,
-            this.panelToolStripMenuItem,
-            this.tabControlToolStripMenuItem});
+            this.importarArquivosComProgressBarToolStripMenuItem});
             this.funcionalidadesToolStripMenuItem.Name = "funcionalidadesToolStripMenuItem";
             this.funcionalidadesToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
             this.funcionalidadesToolStripMenuItem.Text = "Funcionalidades";
@@ -188,19 +186,12 @@
             this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 17);
             this.toolStripProgressBar1.Value = 50;
             // 
-            // panelToolStripMenuItem
+            // treeViewToolStripMenuItem
             // 
-            this.panelToolStripMenuItem.Name = "panelToolStripMenuItem";
-            this.panelToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
-            this.panelToolStripMenuItem.Text = "Panel";
-            this.panelToolStripMenuItem.Click += new System.EventHandler(this.panelToolStripMenuItem_Click);
-            // 
-            // tabControlToolStripMenuItem
-            // 
-            this.tabControlToolStripMenuItem.Name = "tabControlToolStripMenuItem";
-            this.tabControlToolStripMenuItem.Size = new System.Drawing.Size(300, 24);
-            this.tabControlToolStripMenuItem.Text = "Tab Control";
-            this.tabControlToolStripMenuItem.Click += new System.EventHandler(this.tabControlToolStripMenuItem_Click);
+            this.treeViewToolStripMenuItem.Name = "treeViewToolStripMenuItem";
+            this.treeViewToolStripMenuItem.Size = new System.Drawing.Size(68, 23);
+            this.treeViewToolStripMenuItem.Text = "Tree View";
+            this.treeViewToolStripMenuItem.Click += new System.EventHandler(this.treeViewToolStripMenuItem_Click);
             // 
             // MDIParent
             // 
@@ -240,8 +231,7 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
-        private System.Windows.Forms.ToolStripMenuItem panelToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tabControlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem treeViewToolStripMenuItem;
     }
 }
 

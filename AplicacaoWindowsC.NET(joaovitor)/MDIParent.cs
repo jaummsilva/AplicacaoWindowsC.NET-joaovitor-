@@ -187,25 +187,15 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         }
 
-        private void panelTabControlToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var panelTab = new FrmPanel();
-            panelTab.MdiParent = this;
-            panelTab.Show();
-        }
 
-        private void panelToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var panelTab = new FrmPanel();
-            panelTab.MdiParent = this;
-            panelTab.Show();
-        }
+        
 
-        private void tabControlToolStripMenuItem_Click(object sender, EventArgs e)
+        private void treeViewToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var panelTab = new FrmTabControl();
+            var panelTab = new FrmTreeView();
             panelTab.MdiParent = this;
             panelTab.Show();
+
         }
     }
 }
