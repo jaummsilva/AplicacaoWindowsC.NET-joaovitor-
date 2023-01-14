@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp3.Business;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,22 +30,6 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         {
             TabPage.SelectTab("tabPage2");
         }
-
-        private string SaveAllText ()
-        {
-            return ("Nome: " + textName2.Text  + "; " + "\n" + "Idade: " + textAge.Text + "; " + "\n" + "Cidade: " + textCity.Text + "; " + "\n" + "Estado: " + comboBoxState.Text
-                + "; " + "\n" +   "Telefone: " + maskedTextBoxTelefone.Text + ";" + "\n" + textBoxEmail.Text + ";" + "\n" +
-                textBoxSexo.Text + ";" + "\n" + maskedTextBoxDN.Text + ";" + "\n" + maskedTextBoxCPF + ";" + "\n"
-                );
-        } 
-        
-        private void Save()
-        {
-            File.WriteAllText(@"C:\Users\Public\" + textName2.Text + DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss") + ".txt", SaveAllText());
-            MessageBox.Show("Texto Salvado com sucesso em : C:\\Users\\Public\\");
-            textName2.Text = string.Empty;
-        }
-
         private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
@@ -67,14 +52,28 @@ namespace AplicacaoWindowsC.NET_joaovitor_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
+                var usuario = new Usuario();
+                usuario.Nome = textName2.Text;
+                usuario.CPF = maskedTextBoxCPF.Text;
+                usuario.Telefone = maskedTextBoxTelefone.Text;
+                usuario.Email = textBoxEmail.Text;
+                usuario.Cidade = textCity.Text;
+                usuario.Estado = comboBoxState.Text;
+                usuario.DataNascimento = maskedTextBoxDN.Text;
+                usuario.Idade = textAge.Text;
+                usuario.Sexo = textBoxSexo.Text;
+                usuario.Gravar();
+                MessageBox.Show("Usuario gravado com sucesso");
+                
+
+
+
+
                 var form = new FrmShowRegistration();
                 form.lblName.Text = textName2.Text;
                 form.lblCity.Text = textCity.Text;
                 form.lblState.Text = comboBoxState.Text;
-                int age = (int)Convert.ToInt64(textAge.Text);
-                form.lblAge.Text = age.ToString();
+                form.lblAge.Text = textAge.Text;
                 form.lblEmail.Text = maskedTextBoxTelefone.Text;
                 form.lblEmail.Text = textBoxEmail.Text;
                 form.lblSexo.Text = textBoxSexo.Text;
@@ -82,15 +81,6 @@ namespace AplicacaoWindowsC.NET_joaovitor_
                 form.lblCPF.Text = maskedTextBoxCPF.Text;
                 form.MdiParent = MDISingleton.InstanciaMDI();
                 form.Show();
-                SaveAllText();
-                Save();
-
-            }
-            catch
-            {
-                MessageBox.Show("Não use caracteres em Idade");
-                textAge.Focus();
-            }
         }
     }
     public class State
