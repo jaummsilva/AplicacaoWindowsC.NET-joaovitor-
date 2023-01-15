@@ -198,6 +198,10 @@
       <Project>{ac6e4be2-f957-4a38-a7a9-bf57188f39ea}</Project>
       <Name>Business</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DatabaseSQL\DatabaseSQL.csproj">
+      <Project>{95de3dd4-2acc-44da-8ea3-1d6b8cdebc7b}</Project>
+      <Name>DatabaseSQL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Database\Database.csproj">
       <Project>{73a39ae8-f506-4fe6-8c60-c3a419e98af5}</Project>
       <Name>Database</Name>
