@@ -24,6 +24,7 @@ namespace AplicacaoWindowsC.NET_joaovitor_
         {
 
             comboBoxState.DataSource = State.Lista();
+            comboBoxUsuarios.DataSource = Usuario.Todos();
         }
 
         private void btnOpen_Click(object sender, EventArgs e)
@@ -62,25 +63,22 @@ namespace AplicacaoWindowsC.NET_joaovitor_
                 usuario.DataNascimento = maskedTextBoxDN.Text;
                 usuario.Idade = textAge.Text;
                 usuario.Sexo = textBoxSexo.Text;
-                usuario.Gravar();
+                //usuario.Gravar();
                 MessageBox.Show("Usuario gravado com sucesso");
-                
+        }
 
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            var usuario = (Usuario)comboBoxUsuarios.SelectedValue;
+            lblMostrarCPF.Text = usuario.Nome;
+            lblMostrarTelefone.Text = usuario.Telefone;
+            lblMostrarIdade.Text = usuario.Idade;
+            lblMostrarEmail.Text = usuario.Email;
+        }
 
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
 
-
-                var form = new FrmShowRegistration();
-                form.lblName.Text = textName2.Text;
-                form.lblCity.Text = textCity.Text;
-                form.lblState.Text = comboBoxState.Text;
-                form.lblAge.Text = textAge.Text;
-                form.lblEmail.Text = maskedTextBoxTelefone.Text;
-                form.lblEmail.Text = textBoxEmail.Text;
-                form.lblSexo.Text = textBoxSexo.Text;
-                form.lblDataNasc.Text = maskedTextBoxDN.Text;
-                form.lblCPF.Text = maskedTextBoxCPF.Text;
-                form.MdiParent = MDISingleton.InstanciaMDI();
-                form.Show();
         }
     }
     public class State

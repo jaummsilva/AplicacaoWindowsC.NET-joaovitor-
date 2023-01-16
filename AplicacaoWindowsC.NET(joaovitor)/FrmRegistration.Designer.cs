@@ -54,9 +54,22 @@
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.lblMostrarIdade = new System.Windows.Forms.Label();
+            this.lblMostrarTelefone = new System.Windows.Forms.Label();
+            this.lblMostrarCPF = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.comboBoxUsuarios = new System.Windows.Forms.ComboBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lblMostrarEmail = new System.Windows.Forms.Label();
             this.TabPage.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
@@ -183,6 +196,7 @@
             this.TabPage.AccessibleName = "";
             this.TabPage.Controls.Add(this.tabPage1);
             this.TabPage.Controls.Add(this.tabPage2);
+            this.TabPage.Controls.Add(this.tabPage3);
             this.TabPage.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TabPage.Location = new System.Drawing.Point(12, 4);
             this.TabPage.Name = "TabPage";
@@ -335,6 +349,135 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Formulario de Cadastro";
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.lblMostrarEmail);
+            this.tabPage3.Controls.Add(this.label15);
+            this.tabPage3.Controls.Add(this.lblMostrarIdade);
+            this.tabPage3.Controls.Add(this.lblMostrarTelefone);
+            this.tabPage3.Controls.Add(this.lblMostrarCPF);
+            this.tabPage3.Controls.Add(this.label14);
+            this.tabPage3.Controls.Add(this.label13);
+            this.tabPage3.Controls.Add(this.label12);
+            this.tabPage3.Controls.Add(this.btnBuscar);
+            this.tabPage3.Controls.Add(this.label11);
+            this.tabPage3.Controls.Add(this.comboBoxUsuarios);
+            this.tabPage3.Location = new System.Drawing.Point(4, 26);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1420, 642);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Buscar usuario";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // lblMostrarIdade
+            // 
+            this.lblMostrarIdade.AutoSize = true;
+            this.lblMostrarIdade.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarIdade.Location = new System.Drawing.Point(228, 273);
+            this.lblMostrarIdade.Name = "lblMostrarIdade";
+            this.lblMostrarIdade.Size = new System.Drawing.Size(0, 26);
+            this.lblMostrarIdade.TabIndex = 8;
+            // 
+            // lblMostrarTelefone
+            // 
+            this.lblMostrarTelefone.AutoSize = true;
+            this.lblMostrarTelefone.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarTelefone.Location = new System.Drawing.Point(228, 216);
+            this.lblMostrarTelefone.Name = "lblMostrarTelefone";
+            this.lblMostrarTelefone.Size = new System.Drawing.Size(0, 26);
+            this.lblMostrarTelefone.TabIndex = 7;
+            // 
+            // lblMostrarCPF
+            // 
+            this.lblMostrarCPF.AutoSize = true;
+            this.lblMostrarCPF.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarCPF.Location = new System.Drawing.Point(228, 153);
+            this.lblMostrarCPF.Name = "lblMostrarCPF";
+            this.lblMostrarCPF.Size = new System.Drawing.Size(0, 26);
+            this.lblMostrarCPF.TabIndex = 6;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(122, 273);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(70, 26);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "Idade:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(122, 216);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(96, 26);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "Telefone:";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(122, 153);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(51, 26);
+            this.label12.TabIndex = 3;
+            this.label12.Text = "CPF:";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Turquoise;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBuscar.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.Location = new System.Drawing.Point(902, 68);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(112, 25);
+            this.btnBuscar.TabIndex = 2;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(122, 67);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(93, 26);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Usuarios:";
+            // 
+            // comboBoxUsuarios
+            // 
+            this.comboBoxUsuarios.FormattingEnabled = true;
+            this.comboBoxUsuarios.Location = new System.Drawing.Point(233, 68);
+            this.comboBoxUsuarios.Name = "comboBoxUsuarios";
+            this.comboBoxUsuarios.Size = new System.Drawing.Size(634, 25);
+            this.comboBoxUsuarios.TabIndex = 0;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(122, 334);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(64, 26);
+            this.label15.TabIndex = 9;
+            this.label15.Text = "Email:";
+            // 
+            // lblMostrarEmail
+            // 
+            this.lblMostrarEmail.AutoSize = true;
+            this.lblMostrarEmail.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarEmail.Location = new System.Drawing.Point(228, 334);
+            this.lblMostrarEmail.Name = "lblMostrarEmail";
+            this.lblMostrarEmail.Size = new System.Drawing.Size(0, 26);
+            this.lblMostrarEmail.TabIndex = 10;
+            // 
             // FrmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -351,6 +494,8 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -382,5 +527,17 @@
         public System.Windows.Forms.TextBox textBoxSexo;
         private System.Windows.Forms.Label label8;
         public System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.ComboBox comboBoxUsuarios;
+        private System.Windows.Forms.Label lblMostrarIdade;
+        private System.Windows.Forms.Label lblMostrarTelefone;
+        private System.Windows.Forms.Label lblMostrarCPF;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblMostrarEmail;
+        private System.Windows.Forms.Label label15;
     }
 }
