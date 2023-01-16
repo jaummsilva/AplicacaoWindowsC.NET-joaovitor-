@@ -20,6 +20,7 @@ namespace ConsoleApp3.DatabaseSQL
 
 
         void Gravar();
+        void Todos();
     }
 }
 

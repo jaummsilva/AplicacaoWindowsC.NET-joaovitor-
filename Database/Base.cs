@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,15 +32,15 @@ namespace ConsoleApp3.Database
 
 
 
-        public string Nome;
-        public string Telefone;
-        public string CPF;
-        public string Idade;
-        public string Cidade;
-        public string Sexo;
-        public string DataNascimento;
-        public string Email;
-        public string Estado;
+        public string Nome { get; set; }
+        public string Telefone { get; set; }
+        public string CPF { get; set; }
+        public string Idade { get; set; }
+        public string Cidade { get; set; }
+        public string Sexo { get; set; }
+        public string DataNascimento { get; set; }
+        public string Email { get; set; }
+        public string Estado { get; set; }
 
         public  void SetNome(string nome)
         {
@@ -76,6 +78,7 @@ namespace ConsoleApp3.Database
         {
             this.DataNascimento= dataNascimento;
         }
+
         public virtual List<IPessoa> Ler()
         {
             var dados = new List<IPessoa>();
@@ -128,8 +131,7 @@ namespace ConsoleApp3.Database
                 }
 
                 File.WriteAllText(diretorio(), conteudo);
-            }
-                
+            }      
         }
     }
 }

@@ -8,6 +8,8 @@ namespace ConsoleApp3.Database
 {
     public interface IPessoa
     {
+        string Telefone { get; set; }
+
         void SetNome(string nome);
         void SetTelefone(string telefone);
         void SetCPF(string cpf);
