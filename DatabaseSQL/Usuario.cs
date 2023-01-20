@@ -14,22 +14,23 @@ namespace DatabaseSQL
     public class Usuario
     {
         private string connectionString;
-        public Usuario() {
+        public Usuario()
+        {
             connectionString = ConfigurationManager.AppSettings["sqlConnection"];
         }
-
-
-        //public void Gravar(string nome, string telefone, string cpf, string idade, string cidade, string estado, string email, string sexo, string dataNascimento)
-        //{
-        //  using (SqlConnection connection = new SqlConnection(
-        //               connectionString))
-        //{
-        //  string queryString = "insert into usuarios (nome, telefone, cpf, idade, cidade, estado, email, sexo, data_nascimento)values('" + this.Nome + "', '" + this.Telefone + "', '" + this.CPF + "', '" + this.Idade + "', '" + this.Cidade + "', '" + this.Estado + "', '" + this.Email + "', '" + this.Sexo + "', '" + this.DataNascimento + "')";
-        //SqlCommand command = new SqlCommand(queryString, connection);
-        //command.Connection.Open();
-        //command.ExecuteNonQuery();
-        //}
-        //}
+        public void Gravar(string nome, string telefone, string cpf, string idade, string cidade, string estado, string email, string sexo, string dataNascimento)
+        {
+            {
+                using (SqlConnection connection = new SqlConnection(
+                             connectionString))
+                {
+                    string queryString = "insert into usuarios (nome, telefone, cpf, idade, cidade, estado, email, sexo, data_nascimento)values('" + nome + "', '" + telefone + "', '" + cpf + "', '" + idade + "', '" + cidade + "', '" + estado + "', '" + email + "', '" + sexo + "', '" + dataNascimento + "')";
+                    SqlCommand command = new SqlCommand(queryString, connection);
+                    command.Connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
 
         public DataTable Todos()
         {

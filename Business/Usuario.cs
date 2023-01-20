@@ -6,6 +6,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,10 +25,10 @@ namespace ConsoleApp3.Business
         public string Sexo { get; set; }
         public string DataNascimento { get; set; }
 
-        // public void Gravar()
-        //{
-          //  new DatabaseSQL.Usuario().Gravar(this.Nome, this.Telefone, this.CPF, this.Idade, this.Cidade, this.Estado, this.Sexo, this.DataNascimento);
-        //}
+         public void Gravar()
+        {
+            new DatabaseSQL.Usuario().Gravar(this.Nome, this.Telefone, this.CPF, this.Idade, this.Cidade, this.Estado, this.Email, this.Sexo, this.DataNascimento);
+        }
 
         public override string ToString()
         {

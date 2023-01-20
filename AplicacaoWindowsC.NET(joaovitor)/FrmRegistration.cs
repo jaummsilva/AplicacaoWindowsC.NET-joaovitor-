@@ -63,7 +63,7 @@ namespace AplicacaoWindowsC.NET_joaovitor_
                 usuario.DataNascimento = maskedTextBoxDN.Text;
                 usuario.Idade = textAge.Text;
                 usuario.Sexo = textBoxSexo.Text;
-                //usuario.Gravar();
+                usuario.Gravar();
                 MessageBox.Show("Usuario gravado com sucesso");
         }
 
